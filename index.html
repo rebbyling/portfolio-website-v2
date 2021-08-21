@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+        dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-175188060-1");
+    </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/aos.css">
+
+        <title>Rebecca's Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""></a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="uil uil-graduation-cap nav__icon"></i> Education
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#work" class="nav__link">
+                                <i class="uil uil-bag nav__icon"></i> Work Experiences
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#portfolio" class="nav__link">
+                                <i class="uil uil-folder-heart nav__icon"></i> Projects
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="uil uil-file-alt nav__icon"></i> Skills
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contact Me
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns" id="nav-btns">
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content grid" data-aos="fade-up" data-aos-delay="500">
+                        <div class="home__social" data-aos="fade-up" data-aos-delay="500">
+                            <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin"></i>
+                            </a>
+                            <a href="https://github.com/rebecca-ling" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github"></i>
+                            </a>
+                        </div>
+
+                        <div class="home__img">
+                            <img class="blob__scale" src="assets/img/profile.png" alt="">
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Hello, I'm Rebecca</h1>
+                            <p class="home__subtitle">
+                                I’m a 20 year old undergraduate studying at Singapore University of
+                                Technology and Design (SUTD). I’m passionate about all things related
+                                to design &amp; data, and my dream is to be an UI/UX Designer-cum-Web
+                                Developer in the future! <br />
+                                <br />
+                                This website is a mini-project I embarked on to document my journey,
+                                and help me improve on my web-developing skills. Hope you enjoy
+                                browsing!
+                              </p>
+                              <a href="assets/pdf/Resume V8.3.pdf" target="_blank" class="button button--flex" ><i class="uil uil-file-download button__icon"></i>VIEW RESUME</a>
+                        </div>
+                    </div>
+
+                    <div class="home__scroll" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+                        <a href="#education" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scrol-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EDUCATION ====================-->
+            <section class="education section" id="education">
+                    <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Education</h2>
+                    <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">What I have studied and the projects I have done</span>
+                    <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
+                        <div class="education__data">
+                            <h3>Hwa Chong Institution</h3>
+                            <p class="education__description">Here at Junior College, I juggled my academics and extra
+                                curricular activities in the floorball club. I also began to
+                                explore other interests, and it was here that I found out more
+                                about Computer Science. However, I never got the opportunity
+                                to dabble in it.</p>
+                            <div class="education__info"><h4 class="education__time">2017 - 2018</h4></div>
+                        </div>
+                        <div class="education__data">
+                            <h3>Singapore University of Technology and Design</h3>
+                            <p class="education__description">At SUTD I discovered my passion for UIUX design and web development, and
+                                got to learn more about the IT industry and programming practices. I also participated in
+                                multiple school activities, such as Scuba Diving and Floorball!</p>
+                            <div class="education__info"><h4 class="education__time">2019 - 2022</h4></div>
+                        </div>
+                    </div>
+            </section>
+
+            <!--==================== WORK ====================-->
+            <section class="work section" id="work">
+                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Work Experiences</h2>
+                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Below are my internship experiences and takeaways</span>
+
+                <div class="qualification__container container" data-aos="fade-up" data-aos-delay="500">
+                    <div class="qualification__sections">
+
+                        <div class="timeline">
+                            <ul>
+                              <li>
+                                    <div>
+                                        <h3 class="qualification__title">UX Design Intern</h3>
+                                        <span class="qualification__subtitle">National Youth Council</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            May 2020 - Sept 2020
+                                        </div>
+                                    </div>
+                              </li>
+                              <li>
+                                    <div>
+                                        <h3 class="qualification__title">UI/UX Design Intern</h3>
+                                        <span class="qualification__subtitle">Government Technology Agency</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            Dec 2020 - April 2021
+                                        </div>
+                                    </div>
+                              </li>
+                              <li>
+                                    <div>
+                                        <h3 class="qualification__title">Digital Transformation Intern</h3>
+                                        <span class="qualification__subtitle">Accenture</span>
+                                        <div class="qualification__calendar">
+                                            <i class="uil uil-schedule"></i>
+                                            May 2021 - Aug 2021
+                                        </div>
+                                    </div>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== PORTFOLIO ====================-->
+            <section class="portfolio section" id="portfolio">
+                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Portfolio</h2>
+                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Some of the projects I have done either in school or at internships.</span>
+                <div class="portfolio__container container swiper-container" data-aos="fade-up" data-aos-delay="500">
+                    <div class="swiper-wrapper">
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/pug-bg.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Pick Up Games Android App</h3>
+                                <p class="portfolio__description">In SUTD, one of the modules I took up involved learning java programming and we were tasked to design an android mobile application. We used Android Studio to create our app which aimed to connect users with similar interests in sporting activities to a community, thus helping them stay motivated to exercise and stay healthy.</p>
+                                <a href="PUG.html" class="button button--flex button--small portfolio__button">
+                                    View More<i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/omw-bg.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">NYC Internship</h3>
+                                <p class="portfolio__description">During my summer in 2020, I joined NYC as a UX Design intern, to help develop and design a website that aims to help youth be more interested in finding out more about various career paths they can pursue, and how to get there. It was definitely an experince since the internship was entirely remote, but I got to pick up some skills during this process, especially from my fellow interns.</p>
+                                <a href="nyc.html" class="button button--flex button--small portfolio__button">
+                                    View More<i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/diving-bg.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">SUTD Diving</h3>
+                                <p class="portfolio__description">As someone who loves water sports, I was glad to be given the opportunity to serve as the president of SUTD's scuba diving club just a few months after I joined the school. I have since been in charge of planning dive trips and internal school events.</p>
+                                <a href="sutdiving.html" class="button button--flex button--small portfolio__button">
+                                    View More<i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/nepal-bg.png" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Nepal</h3>
+                                <p class="portfolio__description">After Alevels, i decided to take on an Overseas Community Involvement Project (OCIP), where the team went to Nepal to teach children english. This journey was definitely an eventful one, and I learnt alot about myself.</p>
+                                <a href="" class="button button--flex button--small portfolio__button">
+                                    View More<i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">SingHealth Web Application</h3>
+                                <p class="portfolio__description">For this project, we created an online web application to help SingHealth staff digitalise their auditing process for food vendors in Singapore.</p>
+                                <a href="" class="button button--flex button--small portfolio__button">
+                                    View More<i class="uil uil-arrow-right button__icon"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+
+            <!--==================== SKILLS ====================-->
+            <section class="skills section" id="skills">
+                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Skills</h2>
+                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Here are the softwares and programming languages that I know</span>
+                <div class="skills__container" data-aos="fade-up" data-aos-delay="500">
+                    <ul class="skills__list skills__grid">
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                 <img src="assets/img/SVG/figma-logo.svg" class="skills__icon" alt=""/>
+                                 <p>Figma</p>
+                            </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/CSS.svg" alt=""class="skills__icon" />
+                                <p>CSS</p>
+                           </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/HTML.svg" class="skills__icon" alt=""/>
+                                <p>HTML</p>
+                           </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/javascript-logo.svg" class="skills__icon" alt=""/>
+                                <p>JavaScript</p>
+                           </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/reactjs-logo.svg" class="skills__icon" alt=""/>
+                                <p>ReactJS</p>
+                           </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/dreamWeaver-logo.svg" class="skills__icon" alt=""/>
+                                <p>DreamWeaver</p>
+                           </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                 <img src="assets/img/SVG/java-logo_1.svg" class="skills__icon" alt=""/>
+                                 <p>Java</p>
+                            </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/Androidstudio-logo.svg" alt=""class="skills__icon" />
+                                <p>Android Studio</p>
+                           </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/xd-logo.svg" class="skills__icon" alt=""/>
+                                <p>Adobe XD</p>
+                           </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/illustrator-logo.svg" class="skills__icon" alt=""/>
+                                <p>Illustrator</p>
+                           </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/swagger-logo.svg" class="skills__icon" alt=""/>
+                                <p>Swagger</p>
+                           </div>
+                        </li>
+                        <li class="skills__item">
+                            <div class="skills__link">
+                                <img src="assets/img/SVG/python-logo.svg" class="skills__icon" alt=""/>
+                                <p>Python</p>
+                           </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <!--==================== CCA ====================-->
+            <!-- <section class="CCA section" id="CCA">
+                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Co Curricular Activities</h2>
+                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Here are some extra curricular activities I have done</span>
+
+                <div class="CCA__container container grid" data-aos="fade-up" data-aos-delay="500">
+                    <div class="CCA__content">
+                        <div>
+                            <i class="uil uil-mountains-sun CCA__icon"></i>
+                            <h3 class="CCA__title">Nepal OCIP</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link CCA__button">
+                            View More
+                            <i class="uil uil-arrow-circle-right button__icon__left"></i>
+                        </span>
+                        <div class="CCA__modal">
+                            <div class="CCA__modal-content">
+                                <h4 class="CCA__modal-title">Nepal OCIP</h4>
+                                <i class="uil uil-times-circle CCA__modal-close"></i>
+
+                                <ul class="CCA__modal-CCAs grid">
+                                    <li class="CCA__modal-CCA">
+                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
+                                        <p>Designed merchandise to raise funds</p>
+                                    </li>
+                                    <li class="CCA__modal-CCA">
+                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
+                                        <p>Planned and facilitated teaching of English</p>
+                                    </li>
+                                    <li class="CCA__modal-CCA">
+                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
+                                        <p>Worked closely with team of 10</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="CCA__content">
+                        <div>
+                            <i class="uil uil-water CCA__icon"></i>
+                            <h3 class="CCA__title">SUTD Diving</h3>
+                        </div>
+                        <span class="button button--flex button--small button--link CCA__button">
+                            View More
+                            <i class="uil uil-arrow-circle-right button__icon__left"></i>
+                        </span>
+                        <div class="CCA__modal">
+                            <div class="CCA__modal-content">
+                                <h4 class="CCA__modal-title">SUTD Diving</h4>
+                                <i class="uil uil-times-circle CCA__modal-close"></i>
+
+                                <ul class="CCA__modal-CCAs grid">
+                                    <li class="CCA__modal-CCA">
+                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
+                                        <p>Served as club president since 2019</p>
+                                    </li>
+                                    <li class="CCA__modal-CCA">
+                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
+                                        <p>Lead and organised dive trips to Tioman and Bali</p>
+                                    </li>
+                                    <li class="CCA__modal-CCA">
+                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
+                                        <p>Created promotional videos and posters for events</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            
+            <!--==================== CONTACT ME ====================-->
+            <section class="contact section" id="contact">
+                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Contact Me</h2>
+                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Get in Touch</span>
+
+                <div class="contact__container container grid" data-aos="fade-up" data-aos-delay="500">
+                    <div>
+                        <a href="mailto:rebecca.lingzw@gmail.com" class="contact__information">
+                            <i class="uil uil-envelope contact__icon"></i>
+                            <div>
+                                <h3 class="contact__title">Email Me</h3>
+                                <span class="contact__subtitle">rebecca.lingzw@gmail.com</span>
+                            </div>
+                        </a>
+                    </div>
+                    <!-- </div>
+
+                    <form action="mailto:rebecca.lingzw@gmail.com" method="POST" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact_label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact_label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                            <div class="contact__content">
+                                <label for="" class="contact_label">Message</label>
+                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                            </div>
+                            <div>
+                                <input class="button button--flex" type="submit" value="Send">
+                            </div>
+                            
+                        </div>
+                    </form> -->
+                    <div>
+                    <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank"  class="contact__information">
+                        <i class="uil uil-linkedin contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Linked In</h3>
+                            <span class="contact__subtitle">rebeccaling1209</span>
+                        </div>
+                    </a>
+                </div>
+                </div>
+                
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid" data-aos="fade-up" data-aos-delay="500">
+                    <div>
+                        <h1 class="footer__title">Rebecca</h1>
+                        <span class="footer__subtitle">UI/UX Designer</span>
+                    </div>
+
+                    <ul class="footer__link">
+                        <li>
+                            <a href="index.html" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="nyc.html" class="footer__link">NYC Internship</a>
+                        </li>
+                        <li>
+                            <a href="PUG.html" class="footer__link">Pick Up Games</a>
+                        </li>
+                        <li>
+                            <a href="sutdiving.html" class="footer__link">SUTDiving</a>
+                        </li>
+                        <li>
+                            <a href="nepal.html" class="footer__link">Nepal</a>
+                        </li>
+                        
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/rebecca-ling" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">© Rebecca Ling, 2021. All Rights Reserved.</p>
+            </div>
+            
+        </footer>
+        
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-angle-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+`       <script src="assets/js/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

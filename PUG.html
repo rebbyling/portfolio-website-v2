@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
+    ></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+        dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "UA-175188060-1");
+    </script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+        
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/aos.css">
+
+        <title>Rebecca's Portfolio Website</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""></a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#project" class="nav__link">
+                                <i class="uil uil-folder-open nav__icon"></i> Project
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#prototyping" class="nav__link">
+                                <i class="uil uil-usd-square nav__icon"></i> Prototyping
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#app" class="nav__link">
+                                <i class="uil uil-mountains-sun nav__icon"></i> The App
+                            </a>
+                        </li>
+                    </ul>
+                    <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns" id="nav-btns">
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home section" id="Intro">
+                <div class="home__container container grid">
+                    <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+                        
+
+                        <div class="home__img">
+                            <img class="blob__scale" src="assets/img/pug/pug-blob.png" alt="">
+                        </div>
+                        <div class="home__data">
+                            <h1 class="home__title">Pick Up Games</h1>
+                            <p class="home__subtitle">
+                                In SUTD, I took up a module called Information Systems and Programming, and as one of the course objectives, I had to work in a team of 5 to design and develop an android application using Java to solve an existing issue the team identified. After 4 months of hardwork, we came up with Pick Up Games (PUG)!
+                            </p>
+                              
+                        </div>
+                    </div>
+
+                    <div class="home__scroll" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
+                        <a href="#project" class="home__scroll-button button--flex">
+                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                            <span class="home__scrol-name">Scroll Down</span>
+                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== EDUCATION ====================-->
+            <section class="education section" id="project">
+                    <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">The Project</h2>
+                    <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Researching and crafting our problem statement</span>
+                    <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
+                        <div class="education__data">
+                            <h3>Our Research</h3>
+                            <p class="education__description">The problem that we identified was that Singaporeans lack the motivation to exercise and keep themselves healthy, especially if they were not in existing sporting clubs. We also discovered that those without a community they can regularly exercise with tended to be less motivated to exercise. 
+                                <br /> <br />
+                                Delving deeper into this insight, we conducted user interviews with youths aged 20 to 25 (n=15) and further identified several pain points that lead to this problem. We came up with the following 2 personas:</p>
+                            <div class="container grid">
+                                <img src="assets/img/pug/pug-personas.png" alt="" class="nyc__img">
+                            </div>
+                        </div>
+                        <div class="education__data">
+                            <h3>The Problem Statement</h3>
+                            <p class="education__description">
+                                From our initial research and crafted user personas, we thus came up with the following problem statement which our android application will aim to address:
+                            </p>
+                            <div class="container grid" data-aos="fade-up" data-aos-delay="500">
+                                <div class="pug__content">
+                                    <div>
+                                        <p class="pug__title">What people need is the ability to find out what (sport) activities are going on around them that they can join</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+
+            <!--==================== WORK ====================-->
+            <section class="work section" id="prototyping">
+                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Protyping</h2>
+                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Designing the key features</span>
+                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
+                    <div class="education__data">
+                        <h3>Organising Activities</h3>
+                        <div class="pug__container container grid">
+                            <img src="assets/img/pug/organise-activities.gif" alt="" class="pug__img">
+                            <p class="education__description">To directly tackle the pain points of The Social Butterfly user persona, 
+                                we made sure it was easy for users to organise their own activities. We purposely used a bottom navigation
+                                bar with the '+' which will open a pop up for filling in the information needed to create an activity. From the moment the 
+                                user logs into the app, the user will thus be able to create their own activity from any screen.
+                                <br><br>We also made sure that the pop up only required necessary fields to create an activity, 
+                                and we used drop down fields to encourage user friendly behaviour.</p>
+                        </div>
+                    </div>
+                    <div class="education__data">
+                        <h3>Finding Activities to Join</h3>
+                        <div class="pug__container container grid">
+                            <img src="assets/img/pug/find-activities.gif" alt="" class="pug__img">
+                            <p class="education__description">As for the pain points of the No One Jio Me user persona, 
+                                we also made it a point to keep the finding of activities process simple and straight forward. 
+                                From the home page's "NEW ACTIVITIES" section, users can see the upcoming activities they can join, and even filter by date, sport
+                                and location as according to their preferences.
+                                <br><br>To sign up, user can simply tap on the card to confirm their interest. Whatever event they
+                                have signed up for will then appear on the home page's "UPCOMING ACTIVITIES" section for easy viewing.</p>
+                        </div>
+                    </div>
+                    <div class="education__data">
+                        <h3>User Profile Summary</h3>
+                        <div class="pug__container container grid">
+                            <img src="assets/img/pug/profile.jpg" alt="" class="pug__img">
+                            <p class="education__description">The user can also easily view a summary of the activities they have 
+                                joined or organised in their profile page. 
+                                <br><br>Alternatively, they can edit their profile or notification preferences here to suit their interests.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== CCA ====================-->
+            <section class="CCA section" id="app">
+                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Creating the App</h2>
+                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">How I contributed to the team</span>
+                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
+                    <div class="education__data">
+                        <h3>My Role</h3>
+                        <p class="education__description">As the UI/UX Designer and frontend developer, I created the prototype and assets on Figma, which I then 
+                            translated into the android application. This entire process took about 3 months, where I learnt how to use
+                            Android Studio and created the XML fragments for our UI. <br><br>
+                            I also worked very closely with our backend developer to ensure that the frontend UI linked seamlessly 
+                            to our backend database, and tested each feature for bugs.</p>
+                    </div>
+                    <div class="education__data">
+                        <h3>Final Product</h3>
+                        <p class="education__description">Below is a short video we made showcasing the actual app that we made, as well as the link to our Github for more information
+                            on the technical features of it.
+                        </p>
+                        <video controls class="pug__video" src="assets/img/pug/ISP 1D Video.mp4"></video>
+                        <div>
+                            <a href="https://github.com/yuanhawk/InfoSys1D#app-package-outline" target="_blank" class="link link--flex">Github Repository</a>
+                       </div>
+                    </div>
+                </div>
+            </section>
+
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid" data-aos="fade-up" data-aos-delay="500">
+                    <div>
+                        <h1 class="footer__title">Rebecca</h1>
+                        <span class="footer__subtitle">UI/UX Designer</span>
+                    </div>
+
+                    <ul class="footer__link">
+                        <li>
+                            <a href="index.html" class="footer__link">Home</a>
+                        </li>
+                        <li>
+                            <a href="nyc.html" class="footer__link">NYC Internship</a>
+                        </li>
+                        <li>
+                            <a href="PUG.html" class="footer__link">Pick Up Games</a>
+                        </li>
+                        <li>
+                            <a href="sutdiving.html" class="footer__link">SUTDiving</a>
+                        </li>
+                        <li>
+                            <a href="nepal.html" class="footer__link">Nepal</a>
+                        </li>
+                        
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/rebecca-ling" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">© Rebecca Ling, 2021. All Rights Reserved.</p>
+            </div>
+            
+        </footer>
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-angle-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+`       <script src="assets/js/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
