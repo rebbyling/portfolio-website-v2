@@ -865,7 +865,7 @@ img{
 }
 
 .content {
-    grid-template-columns: minmax(350px, auto) 1fr;
+    grid-template-columns: minmax(300px, auto) 1fr;
     padding-top: 3.5rem;
     align-items: center;
 }
