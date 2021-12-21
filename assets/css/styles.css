@@ -23,8 +23,8 @@
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF; */
 
-    --first-color: #ff739f;
-    --first-color-second: #FE598C;
+    --first-color: #ff6495;
+    --first-color-second: #ff95b6;
     --first-color-alt: #FE598C;
     --first-color-lighter: #FE598C;
     --title-color: #1e137c;
@@ -84,8 +84,8 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-    --first-color: #ffc3d6;
-    --first-color-second: #ffc3d6;
+    --first-color: #f895b5;
+    --first-color-second: #ffccdc;
     --first-color-alt: #ffc3d6;
     --first-color-lighter: #ffc3d6;
     --title-color: #FE598C;
@@ -310,10 +310,12 @@ img{
 .home__social-icon {
     font-size: 1.25rem;
     color: var(--first-color);
+    transition: transform .3s
 }
 
 .home__social-icon:hover {
     color: var(--first-color-alt);
+    transform: scale(1.2);
 }
 
 .home__blob {
@@ -379,15 +381,20 @@ img{
 /*==================== BUTTONS ====================*/
 .button {
     display: inline-block;
-    background-color: var(--first-color);
+    /* background-color: var(--first-color); */
     color: #fff;
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
     font-style: var(--body-font);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    background-size: 200% auto;
+    background-image: linear-gradient(to right,  var(--first-color) 0%, var(--first-color-second) 51%,  var(--first-color) 100%)
 }
 .button:hover {
-    background-color: var(--first-color-second);
+    /* background-color: var(--first-color-second); */
+    background-position: right center;
+    transform: scale(1.1);
 }
 
 .button__icon {
