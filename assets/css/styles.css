@@ -692,18 +692,21 @@ img{
 }
 
 .portfolio__img {
-    width: 265px;
     border-radius: .5rem;
     justify-self: center;
+    display: flex;
+    justify-content: center;
 }
 
 .portfolio__title {
     font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-5);
+    margin-top: var(--mb-1-5);
 }
 
 .portfolio__description {
     margin-bottom: var(--mb-0-75);
+    text-align: left;
 }
 
 .porfolio__button:hover .button__icon {
@@ -740,6 +743,30 @@ img{
 .swiper-button-next,
 .swiper-pagination-bullets {
     outline: none;
+}
+
+.portfolio__layout {
+    display: flex;
+    flex-flow: row wrap;
+    padding-right: var(--mb-3);
+    padding-left: var(--mb-3);
+}
+
+.layout__item {
+    flex: 1 100%;
+    padding: 30px 50px 60px;
+    min-height: 500px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.portfolio__button {
+    width: fit-content;
 }
 /*==================== PROJECT IN MIND ====================*/
 
@@ -1144,6 +1171,11 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .layout__item {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
     .nyc__about__container {
         gap: 1rem;
         grid-template-columns: repeat(4, 1fr);
@@ -1299,12 +1331,17 @@ img{
         width: 450px;
     }
 
-    .portfolio__img {
+    /* .portfolio__img {
         width: 320px;
-    }
+    } */
 
     .portfolio__content {
         align-items: center;
+    }
+
+    .layout__item {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .contact__container {
@@ -1422,6 +1459,9 @@ img{
         bottom: -4.5rem;
     }
 
+    .layout__item {
+        flex: 1 50%;
+    }
     .contact__container {
         padding: 0;
     }
