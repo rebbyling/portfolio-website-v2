@@ -877,6 +877,11 @@ img{
     padding-left: 1rem;
 }
 
+.number {
+    margin-left: 1rem;
+    padding-left: 1rem;
+}
+
 .list {
     margin-bottom: var(--mb-0-5);
 }
