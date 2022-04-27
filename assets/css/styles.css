@@ -23,18 +23,19 @@
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF; */
 
-    --first-color: #ff6495;
-    --first-color-second: #ff95b6;
-    --first-color-alt: #FE598C;
-    --first-color-lighter: #FE598C;
+    --first-color: #3c5ca6;
+    --first-color-second: #ff8600;
+    --first-color-alt: #ffc300;
+    --first-color-lighter: #3c5ca6;
     --title-color: #1e137c;
-    --text-color: #2f21ac;
-    --text-color-light: #ff739f;
+    --text-color: #6377b1;
+    --text-color-light: #eca200;
     --input-color: #f1effa;
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF;
-    --scroll-bar-color: #ffb0ca54;
-    --scroll-thumb-color: #fe598d96;
+    --scroll-bar-color: #a7b5e0;
+    --scroll-thumb-color: #3c5ca6;
+    --footer-bg: #2d325a;
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -84,18 +85,19 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-    --first-color: #f895b5;
-    --first-color-second: #ffccdc;
-    --first-color-alt: #ffc3d6;
-    --first-color-lighter: #ffc3d6;
-    --title-color: #FE598C;
+    --first-color: #fb8500;
+    --first-color-second: #ffc300;
+    --first-color-alt: #fca311;
+    --first-color-lighter: #ffe7c3;
+    --title-color: #fe7434;
     --text-color: #fff;
-    --text-color-light: #ffc3d6;
+    --text-color-light: #ffc300;
     --input-color: #2d325a;
-    --body-color: #202442;
-    --container-color: #2d325a;
-    --scroll-bar-color: #ffd4e254;
-    --scroll-thumb-color: #fe598d96;
+    --body-color: #262738;
+    --container-color: #373950;
+    --scroll-bar-color: #ffe9d454;
+    --scroll-thumb-color: #ff7b00;
+    --footer-bg: #2d325a;
 
 }
 /*========== Button Dark/Light ==========*/
@@ -112,7 +114,7 @@ body.dark-theme {
 }
 
 .change-theme:hover {
-    color: var(--first-color);
+    color: var(--first-color-second);
 }
 /*==================== BASE ====================*/
 *{
@@ -160,6 +162,7 @@ img{
 .section__title {
     font-size: var(--h1-font-size);
     text-align: center;
+    color: var(--first-color-second);
 }
 
 .section__subtitle {
@@ -219,7 +222,7 @@ img{
 }
 
 .nav__toggle:hover {
-    color: var(--first-color);
+    color: var(--first-color-second);
 }
 
 @media screen and (max-width: 767px){
@@ -252,7 +255,7 @@ img{
 }
 
 .nav__link:hover {
-    color: var(--first-color);
+    color: var(--first-color-second);
 }
 
 .nav__icon {
@@ -269,7 +272,7 @@ img{
 }
 
 .nav__close:hover{
-    columns: var(--first-color-alt);
+    columns: var(--first-color-second);
 }
 /* show menu */
 .show-menu {
@@ -282,7 +285,7 @@ img{
 
 /* Active link */
 .active-link {
-    color: var(--first-color);
+    color: var(--first-color-alt);
 }
 
 /* Change background header */
@@ -309,12 +312,12 @@ img{
 
 .home__social-icon {
     font-size: 1.25rem;
-    color: var(--first-color);
+    color: var(--first-color-second);
     transition: transform .3s
 }
 
 .home__social-icon:hover {
-    color: var(--first-color-alt);
+    color: var(--first-color);
     transform: scale(1.2);
 }
 
@@ -351,7 +354,7 @@ img{
 }
 
 .home__scroll-button {
-    color: var(--title-color);
+    color: var(--text-color);
     transition: .3s;
 }
 
@@ -389,7 +392,7 @@ img{
     font-style: var(--body-font);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     background-size: 200% auto;
-    background-image: linear-gradient(to right,  var(--first-color) 0%, var(--first-color-second) 51%,  var(--first-color) 100%)
+    background-image: linear-gradient(to right,  var(--first-color-alt) 0%, var(--first-color-second) 51%,  var(--first-color-alt) 100%)
 }
 .button:hover {
     /* background-color: var(--first-color-second); */
@@ -970,7 +973,7 @@ img{
 }
 
 .footer__bg {
-    background-color: #1e137c;
+    background-color: var(--footer-bg);
     padding: 2rem 0 3rem;
     margin-bottom: -2rem;
 }
@@ -997,7 +1000,7 @@ img{
 }
 
 .footer__link:hover {
-    color: var(--first-color);
+    color: var(--first-color-second);
 }
 
 .footer__social {
@@ -1007,7 +1010,7 @@ img{
 }
 
 .footer__social:hover {
-    color: var(--first-color);
+    color: var(--first-color-second);
 }
 
 .footer__copy {
