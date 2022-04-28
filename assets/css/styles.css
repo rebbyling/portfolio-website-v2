@@ -36,6 +36,7 @@
     --scroll-bar-color: #a7b5e0;
     --scroll-thumb-color: #3c5ca6;
     --footer-bg: #2d325a;
+    --button-color: #fff;
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
@@ -98,6 +99,7 @@ body.dark-theme {
     --scroll-bar-color: #ffe9d454;
     --scroll-thumb-color: #f76c6c;
     --footer-bg: #2d325a;
+    --button-color: #1e253f;
 
 }
 /*========== Button Dark/Light ==========*/
@@ -385,7 +387,7 @@ img{
 .button {
     display: inline-block;
     /* background-color: var(--first-color); */
-    color: var(--footer-bg);
+    color: var(--button-color);
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
