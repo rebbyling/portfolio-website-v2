@@ -24,9 +24,9 @@
     --container-color: #FFF; */
 
     --first-color: #3c5ca6;
-    --first-color-second: #ff8600;
+    --first-color-second: #F76464;
     --first-color-alt: #ffc300;
-    --first-color-lighter: #3c5ca6;
+    --first-color-lighter: #f59a45;
     --title-color: #1e137c;
     --text-color: #6377b1;
     --text-color-light: #eca200;
@@ -85,18 +85,18 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-    --first-color: #fb8500;
-    --first-color-second: #ffc300;
-    --first-color-alt: #fca311;
+    --first-color: #f76c6c;
+    --first-color-second: #f8e9a1;
+    --first-color-alt: #ff9b9b;
     --first-color-lighter: #ffe7c3;
-    --title-color: #fe7434;
+    --title-color: #f76c6c;
     --text-color: #fff;
-    --text-color-light: #ffc300;
+    --text-color-light: #f1c83f;
     --input-color: #2d325a;
-    --body-color: #262738;
-    --container-color: #373950;
+    --body-color: #1e253f;
+    --container-color: #24305e;
     --scroll-bar-color: #ffe9d454;
-    --scroll-thumb-color: #ff7b00;
+    --scroll-thumb-color: #f76c6c;
     --footer-bg: #2d325a;
 
 }
@@ -385,7 +385,7 @@ img{
 .button {
     display: inline-block;
     /* background-color: var(--first-color); */
-    color: #fff;
+    color: var(--footer-bg);
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
@@ -890,16 +890,16 @@ img{
 }
 
 .link {
-    border-bottom: 1px solid var(--text-color);
+    border-bottom: 1px solid var(--first-color-second);
 }
 
 .link:hover {
     transition: all .15s ease-out;
     text-decoration: none;
-    background-image: -webkit-linear-gradient(transparent 50%, var(--first-color) 0%);
+    background-image: -webkit-linear-gradient(transparent 50%, var(--first-color-alt) 0%);
     background-size: 0 100%;
     background-repeat: no-repeat;
-    color: var(--first-color);
+    color: var(--first-color-alt);
     border-bottom: 1px solid var(--first-color);
 }
 
@@ -911,7 +911,7 @@ img{
 
 .highlight {
     font-weight: var(--font-semi-bold);
-    color: var(--first-color);
+    color: var(--first-color-second);
 }
 
 .content {
