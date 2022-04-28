@@ -196,6 +196,49 @@ img{
     z-index: var(--z-fixed);
     background-color: var(--body-color);
 }
+
+.flip-card {
+    position: relative;
+    height:280px;
+    background-color: var(--container-color);
+    padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
+    transition: .3s;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    margin: 0;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  /* Style the back side */
+  .flip-card-back {
+    transform: rotateY(180deg);
+  }
 /*==================== NAV ====================*/
 .nav {
     max-width: 968px;
@@ -381,6 +424,7 @@ img{
 
 .blob__scale {
     transform: scale(1);
+    max-height: 550px;
 }
 
 /*==================== BUTTONS ====================*/
@@ -1174,6 +1218,7 @@ img{
     .home__img {
         order: 1;
         justify-self: center;
+        max-height: 550px;
     }
 
     .portfolio__container,
