@@ -1,8 +1,8 @@
 /*==================== GOOGLE FONTS ====================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
-
-
+@import url('http://fonts.cdnfonts.com/css/clash-display');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
@@ -40,12 +40,13 @@
 
     /*========== Font and typography ==========*/
     --body-font: 'Poppins', sans-serif;
+    --header-font: 'Clash Display', 'Poppins',sans-serif;
 
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
-    --big-font-size: 2rem;
-    --h1-font-size: 1.5rem;
-    --h2-font-size: 1.25rem;
-    --h3-font-size: 1.125rem;
+    --big-font-size: 2.25rem;
+    --h1-font-size: 2rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
     --normal-font-size: .938rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
@@ -141,6 +142,8 @@ body{
 h1,h2,h3,h4 {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
+    font-family: var(--header-font);
+    letter-spacing: .08rem;
 }
 
 ul{
@@ -733,7 +736,9 @@ img{
 
 /*==================== PORTFOLIO ====================*/
 .portfolio__container {
-    overflow: initial;
+    max-width: 900px;
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
 }
 
 .portfolio__content {
@@ -1495,8 +1500,8 @@ img{
     }
 
     .portfolio__container {
-        column-gap: 5rem;
-        max-width: 768px;
+        max-width: 75%;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .swiper-portfolio-icon {
