@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
 @import url('http://fonts.cdnfonts.com/css/clash-display');
 @import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600&f[]=satoshi@500,501&display=swap');
+
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
