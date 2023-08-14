@@ -1,195 +1,278 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <link rel="icon" href="/assets/img/home-logo.png">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-            dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/assets/img/home-logo.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag("config", "UA-175188060-1");
-        </script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "UA-175188060-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/aos.css">
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-        <title>Rebecca Ling 🐢</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="index.html" ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""></a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#home" class="nav__link">
-                                <i class="uil uil-folder-open nav__icon"></i> SUTDiving
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Events" class="nav__link">
-                                <i class="uil uil-archive-alt nav__icon"></i> Events
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times-circle nav__close" id="nav-close"></i>
-                </div>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-                <div class="nav__btns" id="nav-btns">
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+    <title>Rebecca Ling 🐢</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html"
+          ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""
+        /></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-folder-open nav__icon"></i> SUTDiving
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Events" class="nav__link">
+                <i class="uil uil-archive-alt nav__icon"></i> Events
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+        </div>
 
-                        <div class="home__img">
-                            <img class="blob__scale" src="assets/img/diving/diving-blob.png" alt="">
-                        </div>
-                        <div class="home__data">
-                            <h1 class="home__title">SUTD Diving</h1>
-                            <p class="home__subtitle">
-                                At SUTDiving, we aim to promote scuba diving as a sport in a safe yet fun 
-                                environment, and the importance of protecting our oceans. 
-                                <br /> <br />
-                                I was the acting club president from 2019-2021, and helped to organise diving trips at least once every term, and have 
-                                Marine Life Conservation Booths to raise awareness of climate issues.
-                            </p>
-                        </div>
-                    </div>
+        <div class="nav__btns" id="nav-btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-                    <div class="home__scroll" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-                        <a href="#Events" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scrol-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-
-            <section class="education section" id="Events">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Our Events</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Some of the key events we held</span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                            <h3>Marine Life Exhibit</h3>
-                            <p class="education__description">One of our club's mission is to raise awareness of the importance of marine life conservation. To do so, we hold termly weekly Marine Life Exhibits within the SUTD compound, discussing about a particular topic each time. The club will research and design engaging posters which are put up around the school, and create exclusive merchandise for the students.</p>
-                            <p class="education__description">As the class president, I was in charge of planning and coordinating the entire event. Some of my key responsibilities included booking the needed locations, liasing the printing of our merchandise, and coordinated with the different members. Below are some of the postcards I designed for our exhibit about coral reefs.</p>
-                            <div class="nyc__interview__container container grid">
-                                <img src="assets/img/diving/lionfish@2x.png" alt="" class="nyc__img">
-                                <img src="assets/img/diving/pufferfish@2x.png" alt="" class="nyc__img">
-                                <img src="assets/img/diving/triggerfish@2x.png" alt="" class="nyc__img">
-                            </div>
-                    </div>
-
-                    <div class="education__data">
-                        <h3>Diving Trips</h3>
-                        <p class="education__description">I have since conducted 3 successful diving trips to both Tioman and Bali with the help of my executive committee thus far. We were responsible for liasing with the external dive vendor to ensure proper equipment and lodging was provided, making sure our participants were safe and comfortable at all times.</p>
-                        <p class="education__description">Organising these dive trips really got me to step out of my comfort zone. Although I have had experience on similar diving trips before, being the leader and organiser of the trip was more complicated than I thought. I had to ensure the dive vendor's safety procedures were up to standard, plan the trip dates, publicise the event and ensure the trip is conducted smoothly. It was important for me to be organised, and be firm in my instructions to keep the participants in check. I was also lucky to have the previous club president around to teach me the ropes - without his help, managing the club would be incredibly hard for me.</p>
-                        <div class="nyc__survey__container container grid">
-                            <iframe
-                                src="https://player.vimeo.com/video/442313904"
-                                frameborder="0"
-                                class="nyc__img"
-                                allow="autoplay; fullscreen"
-                                allowfullscreen
-                            ></iframe>
-                            <iframe
-                                src="https://player.vimeo.com/video/416864941"
-                                frameborder="0"
-                                class="nyc__img"
-                                allow="autoplay; fullscreen"
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                </div>
-                </div>
-        </section>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div>
-                        <h1 class="footer__title">Rebecca</h1>
-                        <span class="footer__subtitle">UI/UX Designer</span>
-                    </div>
-
-                    <ul class="footer__link">
-                        <li>
-                            <a href="index.html" class="footer__link">Home</a>
-                        </li>
-                        <li>
-                            <a href="nyc.html" class="footer__link">NYC Internship</a>
-                        </li>
-                        <li>
-                            <a href="govtech.html" class="footer__link">GovTech Internship</a>
-                        </li>
-                        <li>
-                            <a href="hackit.html" class="footer__link">HACK-IT!</a>
-                        </li>
-                        <li>
-                            <a href="PUG.html" class="footer__link">Pick Up Games</a>
-                        </li>
-                        <li>
-                            <a href="sentient.html" class="footer__link">Sentient.io</a>
-                        </li>                        
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/rebbyling" target="_blank" class="footer__social">
-                            <i class="uil uil-github"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <p class="footer__copy">Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.</p>
-                
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+            <div class="home__img">
+              <img
+                class="blob__scale"
+                src="assets/img/diving/diving-blob.png"
+                alt=""
+              />
             </div>
-            
-        </footer>
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-angle-up scrollup__icon"></i>
-        </a>
+            <div class="home__data">
+              <h1 class="home__title">SUTD Diving</h1>
+              <p class="home__subtitle">
+                At SUTDiving, we aim to promote scuba diving as a sport in a
+                safe yet fun environment, and the importance of protecting our
+                oceans.
+                <br />
+                <br />
+                I was the acting club president from 2019-2021, and helped to
+                organise diving trips at least once every term, and have Marine
+                Life Conservation Booths to raise awareness of climate issues.
+              </p>
+            </div>
+          </div>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-`       <script src="assets/js/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+          <div
+            class="home__scroll"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            <a href="#Events" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scrol-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="education section" id="Events">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Our Events
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Some of the key events we held</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Marine Life Exhibit</h3>
+            <p class="education__description">
+              One of our club's mission is to raise awareness of the importance
+              of marine life conservation. To do so, we hold termly weekly
+              Marine Life Exhibits within the SUTD compound, discussing about a
+              particular topic each time. The club will research and design
+              engaging posters which are put up around the school, and create
+              exclusive merchandise for the students.
+            </p>
+            <p class="education__description">
+              As the class president, I was in charge of planning and
+              coordinating the entire event. Some of my key responsibilities
+              included booking the needed locations, liasing the printing of our
+              merchandise, and coordinated with the different members. Below are
+              some of the postcards I designed for our exhibit about coral
+              reefs.
+            </p>
+            <div class="nyc__interview__container container grid">
+              <img
+                src="assets/img/diving/lionfish@2x.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/diving/pufferfish@2x.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/diving/triggerfish@2x.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+
+          <div class="education__data">
+            <h3>Diving Trips</h3>
+            <p class="education__description">
+              I have since conducted 3 successful diving trips to both Tioman
+              and Bali with the help of my executive committee thus far. We were
+              responsible for liasing with the external dive vendor to ensure
+              proper equipment and lodging was provided, making sure our
+              participants were safe and comfortable at all times.
+            </p>
+            <p class="education__description">
+              Organising these dive trips really got me to step out of my
+              comfort zone. Although I have had experience on similar diving
+              trips before, being the leader and organiser of the trip was more
+              complicated than I thought. I had to ensure the dive vendor's
+              safety procedures were up to standard, plan the trip dates,
+              publicise the event and ensure the trip is conducted smoothly. It
+              was important for me to be organised, and be firm in my
+              instructions to keep the participants in check. I was also lucky
+              to have the previous club president around to teach me the ropes -
+              without his help, managing the club would be incredibly hard for
+              me.
+            </p>
+            <div class="nyc__survey__container container grid">
+              <iframe
+                src="https://player.vimeo.com/video/442313904"
+                frameborder="0"
+                class="nyc__img"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                src="https://player.vimeo.com/video/416864941"
+                frameborder="0"
+                class="nyc__img"
+                allow="autoplay; fullscreen"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__bg">
+          <div
+            class="footer__container container grid"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div>
+              <h1 class="footer__title">Rebecca</h1>
+              <span class="footer__subtitle">UI/UX Designer</span>
+            </div>
+
+            <ul class="footer__link">
+              <li>
+                <a href="index.html" class="footer__link">Home</a>
+              </li>
+              <li>
+                <a href="nyc.html" class="footer__link">NYC Internship</a>
+              </li>
+              <li>
+                <a href="govtech.html" class="footer__link"
+                  >GovTech Internship</a
+                >
+              </li>
+              <li>
+                <a href="hackit.html" class="footer__link">HACK-IT!</a>
+              </li>
+              <li>
+                <a href="PUG.html" class="footer__link">Pick Up Games</a>
+              </li>
+              <li>
+                <a href="sentient.html" class="footer__link">Sentient.io</a>
+              </li>
+            </ul>
+
+            <div class="footer__socials">
+              <a
+                href="https://www.linkedin.com/in/rebeccaling1209/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/rebbyling"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <p class="footer__copy">
+            Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.
+          </p>
+        </div>
+      </footer>
+      <!--==================== SCROLL TOP ====================-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+      </a>
+
+      <!--==================== SWIPER JS ====================-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      `
+      <script src="assets/js/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <!--==================== MAIN JS ====================-->
+      <script src="assets/js/main.js"></script>
+    </main>
+  </body>
 </html>

@@ -1,536 +1,868 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <link rel="icon" href="/assets/img/home-logo.png">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-            dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/assets/img/home-logo.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag("config", "UA-175188060-1");
-        </script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "UA-175188060-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/aos.css">
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-        <title>Rebecca Ling 🐢e</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="index.html" ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""></a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#Intro" class="nav__link">
-                                <i class="uil uil-folder-open nav__icon"></i> Introduction
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Project" class="nav__link">
-                                <i class="uil uil-brain nav__icon"></i> Project
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Research" class="nav__link">
-                                <i class="uil uil-search-alt nav__icon"></i> Research
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Solution" class="nav__link">
-                                <i class="uil uil-fire nav__icon"></i> Design
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Prototyping" class="nav__link">
-                                <i class="uil uil-swatchbook nav__icon"></i> Prototyping
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Conclusion" class="nav__link">
-                                <i class="uil uil-trophy nav__icon"></i> Conclusion
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times-circle nav__close" id="nav-close"></i>
-                </div>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-                <div class="nav__btns" id="nav-btns">
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="Intro">
-                <div class="home__container container grid">
-                    <div class="content grid" data-aos="fade-up" data-aos-delay="500">
-                        <div class="home__img">
-                            <img class="blob__scale" src="assets/img/govtech/govtech.png" alt="">
-                        </div>
-                        <div class="home__data">
-                            <h1 class="home__title">GovTech</h1>
-                            <h2 class="portfolio__title">My Role</h2>
-                            <p class="home__subtitle">
-                                I worked closely with a senior designer to create a web service 
-                                that aims to make city-level sensor data available for 
-                                the industry and public in a convenient and efficient manner.
-                             </p>
-                            <h2 class="portfolio__title">Duration:</h2>
-                            <p class="home__subtitle">
-                                5 months
-                            </p>
-                            <h2 class="portfolio__title">Responsibilities:</h2>  
-                            <p class="home__subtitle">
-                                Design Thinking & Ideation, UX Design, UI Design, Design Systems, Prototyping
-                            </p>
-                        </div>
-                    </div>
+    <title>Rebecca Ling 🐢e</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html"
+          ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""
+        /></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#Intro" class="nav__link">
+                <i class="uil uil-folder-open nav__icon"></i> Introduction
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Project" class="nav__link">
+                <i class="uil uil-brain nav__icon"></i> Project
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Research" class="nav__link">
+                <i class="uil uil-search-alt nav__icon"></i> Research
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Solution" class="nav__link">
+                <i class="uil uil-fire nav__icon"></i> Design
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Prototyping" class="nav__link">
+                <i class="uil uil-swatchbook nav__icon"></i> Prototyping
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Conclusion" class="nav__link">
+                <i class="uil uil-trophy nav__icon"></i> Conclusion
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+        </div>
 
-                    <div class="home__scroll" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-                        <a href="#Project" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scrol-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
+        <div class="nav__btns" id="nav-btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-            <!--==================== EDUCATION ====================-->
-            <section class="education section" id="Project">
-                    <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">The Project</h2>
-                    <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">A brief overview of what I was tasked to do for the upcoming months at GovTech.</span>
-                    <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                        <div class="education__data">
-                            <h3>Smart Nation Sensor Platform (SNSP)</h3>
-                            <p>At GovTech, I was part of the SNSP department whose mission is to enable everyone, everything and everywhere to be connected all the time in Singapore. 
-                                By providing connectivity, the right infrastructure and technical architecture, citizens, businesses and government agencies will be able to
-                                leverage technology towards improving lives in a Smart Nation.
-                                <br><br>
-                            </p>
-                            <h3>My Responsibilities</h3>
-                            <p>To fulfill the above mission, GovTech aimed to make city-level sensor data available for the industry and public by creating a sensor platform
-                                web service. As the UI/UX Designer my responsibilties included:
-                                <br><br>
-                            </p>
-                            <div class="nyc__about__container container grid" data-aos="fade-up" data-aos-delay="500">
-                                <div class="nyc__content">
-                                    <div>
-                                        <span class="nyc__icon">1</span>
-                                        <span class="nyc__title">Use design thinking to understand business requirements and user feedback</span>
-                                    </div>
-                                </div><div class="nyc__content">
-                                    <div>
-                                        <span class="nyc__icon">2</span>
-                                        <span class="nyc__title">Prototype multiple wireframes and UI iteratively as part of the AGILE framework</span>
-                                    </div>
-                                </div>
-                                <div class="nyc__content">
-                                    <div>
-                                        <span class="nyc__icon">3</span>
-                                        <span class="nyc__title">Collaborate effectively with the developers and designers</span>
-                                    </div>
-                                </div>
-                                <div class="nyc__content">
-                                    <div>
-                                        <span class="nyc__icon">4</span>
-                                        <span class="nyc__title">Create the required assets and branding guide for the platform</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </section>
-
-            <!--==================== WORK ====================-->
-            <section class="work section" id="Research">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Research & Design Thinking</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Laying down the ground work</span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <h3>Empathy Map</h3>
-                        <p class="education__description">Based on the business requirements from the different government agencies that will be using this service,
-                            we created an empathy map, as well as consolidated the general pain points and goals of different users:
-                        </p>
-                        
-                        <div class="container grid">
-                            <img src="assets/img/govtech/empathy_map.jpeg" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/painpoints_goals.jpeg" alt="" class="nyc__img">
-                        </div>
-                    </div>
-
-                    <div class="education__data">
-                        <h3>Customer Journey Map</h3>
-                        <p class="education__description">
-                            With our findings from the empathy map, we then focused on creating several customer journey maps and the features each customer might use based
-                            on the different stakeholder requirements. 
-                            <br><br>
-                            For example, you can see customer Siddarth has 3 possible customer flows, uploading of sensor 
-                            data onto SAM, sensor planning, and sensor research. For each of these flows we identified the features Siddarth will need to interact with
-                            and tried to identify behaviours, concerns and emotions he will go through. From there, we then brainstorm the components and how we want them
-                            to interact with the user. 
-                        </p>
-                        <div class="container grid">
-                            <img src="assets/img/govtech/persona_summary.jpeg" alt="" class="nyc__img">
-                        </div>
-                        <br>
-                        <div class="container grid nyc__interview__container">
-                            <img src="assets/img/govtech/siddarth1.jpeg" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/siddarth3.jpeg" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/siddarth3.jpeg" alt="" class="nyc__img">
-                        </div>
-                        <p class="education__description">This process was done for each customer profile identified, and after which the design team got a much better 
-                            understanding of the different stakeholders, and had a rough idea of how the platform will take shape.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== CCA ====================-->
-            <section class="work section" id="Solution">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Designing</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">The beginnings of SAM</span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <h3>Logo</h3>
-                        <p class="education__description">We desgined several logos in several sprints, editing them based on their
-                            feedback.
-                        </p>
-                        <div class="container grid nyc__interview__container">
-                            <img src="assets/img/govtech/Logo/A.png" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/Logo/B.png" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/Logo/C.png" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/Logo/D.png" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/Logo/E.png" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/Logo/F.png" alt="" class="nyc__img">
-                        </div>
-                        <br>
-                        <div class="container grid">
-                            <img src="assets/img/govtech/Logo/G.png" alt="" class="nyc__img">
-                        </div>
-                    </div>
-                    <div class="">
-                        <h3>Design System</h3>
-                        <p class="education__description">We also created the design system for the developers and designers for reference.</p>
-                    </div>
-                </div>
-                <div class="img__container container swiper-container" data-aos="fade-up" data-aos-delay="500">
-                    <div class="swiper-wrapper">
-                        
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Colors.png" alt="" class="nyc__img">
-                        </div>
-                        
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/GovHeader.png" alt="" class="nyc__img">
-                        </div>
-                        
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Space.png" alt="" class="nyc__img">
-                        </div>
-                        
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Buttons.png" alt="" class="nyc__img">
-                        </div>
-                        
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Inputs.png" alt="" class="nyc__img">
-                        </div>
-                        
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Fonts.png" alt="" class="nyc__img">
-                        </div>
-                        
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Badges&Chips.png" alt="" class="nyc__img">
-                        </div>
-                        
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Dropdowns.png" alt="" class="nyc__img">
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Tabs.png" alt="" class="nyc__img">
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Cards.png" alt="" class="nyc__img">
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/govtech/design_system/Icons.png" alt="" class="nyc__img">
-                        </div>
-
-                    </div>
-
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="Prototyping">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Prototyping</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Designs and Iterations I helped out in</span>
-
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <h3>Login Flow</h3>
-                        <br>
-                        <div class="container grid">
-                            <img src="assets/img/govtech/login/LoginMVP-WFUIV2.png" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/login/2FAMVP-WFUIV2.png" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/login/forget.png" alt="" class="nyc__img">
-                        </div>
-                    </div>
-
-                    <div class="education__data">
-                        <h3>Search and Filter</h3>
-                    </div>
-                </div>
-                    <div class="education__data img__container container swiper-container" data-aos="fade-up" data-aos-delay="500">
-                            <div class="swiper-wrapper">
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/filters/FilterDrop.png" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/filters/dropdown1.png" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/filters/dropdown2.png" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/filters/dropdown3.png" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/filters/loader_spin.png" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/filters/Loading.png" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/filters/auto_suggest.png" alt="" class="nyc__img">
-                                    
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/filters/suggestion_hover.png" alt="" class="nyc__img">
-                                </div>
-
-                            </div>
-
-                            <div class="swiper-button-next">
-                                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                            </div>
-                            <div class="swiper-button-prev">
-                                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    <br>
-                    <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <h3>Section Tabs</h3>
-                        </div>
-                    </div>
-                    <div class="education__data img__container container swiper-container" data-aos="fade-up" data-aos-delay="500">
-                            <div class="swiper-wrapper">
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/tabs/overview.jpeg" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/tabs/data.jpeg" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/tabs/network.jpeg" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/tabs/device.jpeg" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/tabs/location.jpeg" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/tabs/agency.jpeg" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/tabs/project.png" alt="" class="nyc__img">
-                                </div>
-                                
-                                <div class="portfolio__content grid swiper-slide">
-                                    <img src="assets/img/govtech/tabs/agency.png" alt="" class="nyc__img">
-                                </div>
-
-                            </div>
-
-                            <div class="swiper-button-next">
-                                <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                            </div>
-                            <div class="swiper-button-prev">
-                                <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    <br>
-                    
-                    <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <h3>Searching for Sensors in an Area</h3>
-                        <br>
-                        <div class=" container grid">
-                            <img src="assets/img/govtech/draw_circle/circle1.png" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/draw_circle/circle2.png" alt="" class="nyc__img">
-                            <img src="assets/img/govtech/draw_circle/circle3.png" alt="" class="nyc__img">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        <!--==================== EDUCATION ====================-->
-        <section class="education section" id="Conclusion">
-            <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Key Takeaways</h2>
-            <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">My main learning points from this internship</span>
-            <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                <div class="education__data">
-                    <h3>The AGILE Methodology</h3>
-                    <p class="education__description">It was my first experience being part of the AGILE Methodology, and taking part in iterative 
-                        design sprints. As GovTech worked on weekly sprints, I had to be able to <span class="highlight">
-                            iterate the wireframes and UI quickly based on the developers feedback and changing business requirements
-                        </span>. It was definitely a challenge initially as I have never worked 
-                        on such a tight deadline before, but I am happy to say that I managed to adapt and keep up with the fast-paced environment!
-                    </p>
-                    
-                </div>
-                <div class="education__data">
-                    <h3>Organising the UI and Components</h3>
-                    <p class="education__description">During this internship, it was the first time I got to work on a large scale project
-                        (spanning over almost 2 years). While I was only here for a few months, being part of the initial planning and designing 
-                        phase taught me the <span class="highlight">importance of organising all the UI and components in a systematic and concise manner</span>. 
-                        We had to organise the different 
-                        versions and iterations of wireframes, components, and UI designs such that the development team can refer to it easily,
-                        and for myself to be able to easily find and edit designs as needed.
-                        <br><br>
-                        Luckily I was working with an experienced UIUX designer who showed me the ropes of how to do so (example below).
-                    </p>
-                    <div class="container grid">
-                        <img src="assets/img/govtech/organisation.jpeg" alt="" class="nyc__img">
-                    </div>
-                </div>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="Intro">
+        <div class="home__container container grid">
+          <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+            <div class="home__img">
+              <img
+                class="blob__scale"
+                src="assets/img/govtech/govtech.png"
+                alt=""
+              />
             </div>
-    </section>
-
-            <!--==================== EDUCATION ====================-->
-            <section class="education section" id="education">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Final Product</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"></span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <p class="education__description">You can interact with the full prototype at this <a class="link" href="https://www.figma.com/proto/hDX8xLxA6dQcpBy5NuisBf/GOVTECH-UI?page-id=0%3A1&node-id=2%3A38097&starting-point-node-id=2%3A38097" target="_blank">Figma link</a>. Feel free to explore!</p>
-                    </div>
-                </div>
-        </section>
-
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div>
-                        <h1 class="footer__title">Rebecca</h1>
-                        <span class="footer__subtitle">UI/UX Designer</span>
-                    </div>
-
-                    <ul class="footer__link">
-                        <li>
-                            <a href="index.html" class="footer__link">Home</a>
-                        </li>
-                        <li>
-                            <a href="nyc.html" class="footer__link">NYC Internship</a>
-                        </li>
-                        <li>
-                            <a href="govtech.html" class="footer__link">GovTech Internship</a>
-                        </li>
-                        <li>
-                            <a href="hackit.html" class="footer__link">HACK-IT!</a>
-                        </li>
-                        <li>
-                            <a href="PUG.html" class="footer__link">Pick Up Games</a>
-                        </li>
-                        <li>
-                            <a href="sentient.html" class="footer__link">Sentient.io</a>
-                        </li>                        
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/rebbyling" target="_blank" class="footer__social">
-                            <i class="uil uil-github"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <p class="footer__copy">Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.</p>
-                
+            <div class="home__data">
+              <h1 class="home__title">GovTech</h1>
+              <h2 class="portfolio__title">My Role</h2>
+              <p class="home__subtitle">
+                I worked closely with a senior designer to create a web service
+                that aims to make city-level sensor data available for the
+                industry and public in a convenient and efficient manner.
+              </p>
+              <h2 class="portfolio__title">Duration:</h2>
+              <p class="home__subtitle">5 months</p>
+              <h2 class="portfolio__title">Responsibilities:</h2>
+              <p class="home__subtitle">
+                Design Thinking & Ideation, UX Design, UI Design, Design
+                Systems, Prototyping
+              </p>
             </div>
-            
-        </footer>
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-angle-up scrollup__icon"></i>
-        </a>
+          </div>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-`       <script src="assets/js/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+          <div
+            class="home__scroll"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            <a href="#Project" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scrol-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== EDUCATION ====================-->
+      <section class="education section" id="Project">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          The Project
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >A brief overview of what I was tasked to do for the upcoming months
+          at GovTech.</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Smart Nation Sensor Platform (SNSP)</h3>
+            <p>
+              At GovTech, I was part of the SNSP department whose mission is to
+              enable everyone, everything and everywhere to be connected all the
+              time in Singapore. By providing connectivity, the right
+              infrastructure and technical architecture, citizens, businesses
+              and government agencies will be able to leverage technology
+              towards improving lives in a Smart Nation. <br /><br />
+            </p>
+            <h3>My Responsibilities</h3>
+            <p>
+              To fulfill the above mission, GovTech aimed to make city-level
+              sensor data available for the industry and public by creating a
+              sensor platform web service. As the UI/UX Designer my
+              responsibilties included: <br /><br />
+            </p>
+            <div
+              class="nyc__about__container container grid"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">1</span>
+                  <span class="nyc__title"
+                    >Use design thinking to understand business requirements and
+                    user feedback</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">2</span>
+                  <span class="nyc__title"
+                    >Prototype multiple wireframes and UI iteratively as part of
+                    the AGILE framework</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">3</span>
+                  <span class="nyc__title"
+                    >Collaborate effectively with the developers and
+                    designers</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">4</span>
+                  <span class="nyc__title"
+                    >Create the required assets and branding guide for the
+                    platform</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== WORK ====================-->
+      <section class="work section" id="Research">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Research & Design Thinking
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Laying down the ground work</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Empathy Map</h3>
+            <p class="education__description">
+              Based on the business requirements from the different government
+              agencies that will be using this service, we created an empathy
+              map, as well as consolidated the general pain points and goals of
+              different users:
+            </p>
+
+            <div class="container grid">
+              <img
+                src="assets/img/govtech/empathy_map.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/painpoints_goals.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+
+          <div class="education__data">
+            <h3>Customer Journey Map</h3>
+            <p class="education__description">
+              With our findings from the empathy map, we then focused on
+              creating several customer journey maps and the features each
+              customer might use based on the different stakeholder
+              requirements.
+              <br /><br />
+              For example, you can see customer Siddarth has 3 possible customer
+              flows, uploading of sensor data onto SAM, sensor planning, and
+              sensor research. For each of these flows we identified the
+              features Siddarth will need to interact with and tried to identify
+              behaviours, concerns and emotions he will go through. From there,
+              we then brainstorm the components and how we want them to interact
+              with the user.
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/govtech/persona_summary.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+            <br />
+            <div class="container grid nyc__interview__container">
+              <img
+                src="assets/img/govtech/siddarth1.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/siddarth3.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/siddarth3.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+            <p class="education__description">
+              This process was done for each customer profile identified, and
+              after which the design team got a much better understanding of the
+              different stakeholders, and had a rough idea of how the platform
+              will take shape.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CCA ====================-->
+      <section class="work section" id="Solution">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Designing
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >The beginnings of SAM</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Logo</h3>
+            <p class="education__description">
+              We desgined several logos in several sprints, editing them based
+              on their feedback.
+            </p>
+            <div class="container grid nyc__interview__container">
+              <img
+                src="assets/img/govtech/Logo/A.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/Logo/B.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/Logo/C.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/Logo/D.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/Logo/E.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/Logo/F.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+            <br />
+            <div class="container grid">
+              <img
+                src="assets/img/govtech/Logo/G.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+          <div class="">
+            <h3>Design System</h3>
+            <p class="education__description">
+              We also created the design system for the developers and designers
+              for reference.
+            </p>
+          </div>
+        </div>
+        <div
+          class="img__container container swiper-container"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Colors.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/GovHeader.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Space.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Buttons.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Inputs.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Fonts.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Badges&Chips.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Dropdowns.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Tabs.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Cards.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/design_system/Icons.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="Prototyping">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Prototyping
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Designs and Iterations I helped out in</span
+        >
+
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Login Flow</h3>
+            <br />
+            <div class="container grid">
+              <img
+                src="assets/img/govtech/login/LoginMVP-WFUIV2.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/login/2FAMVP-WFUIV2.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/login/forget.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+
+          <div class="education__data">
+            <h3>Search and Filter</h3>
+          </div>
+        </div>
+        <div
+          class="education__data img__container container swiper-container"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/filters/FilterDrop.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/filters/dropdown1.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/filters/dropdown2.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/filters/dropdown3.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/filters/loader_spin.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/filters/Loading.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/filters/auto_suggest.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/filters/suggestion_hover.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <br />
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Section Tabs</h3>
+          </div>
+        </div>
+        <div
+          class="education__data img__container container swiper-container"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/tabs/overview.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/tabs/data.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/tabs/network.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/tabs/device.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/tabs/location.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/tabs/agency.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/tabs/project.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/govtech/tabs/agency.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <br />
+
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Searching for Sensors in an Area</h3>
+            <br />
+            <div class="container grid">
+              <img
+                src="assets/img/govtech/draw_circle/circle1.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/draw_circle/circle2.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/govtech/draw_circle/circle3.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== EDUCATION ====================-->
+      <section class="education section" id="Conclusion">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Key Takeaways
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >My main learning points from this internship</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>The AGILE Methodology</h3>
+            <p class="education__description">
+              It was my first experience being part of the AGILE Methodology,
+              and taking part in iterative design sprints. As GovTech worked on
+              weekly sprints, I had to be able to
+              <span class="highlight">
+                iterate the wireframes and UI quickly based on the developers
+                feedback and changing business requirements </span
+              >. It was definitely a challenge initially as I have never worked
+              on such a tight deadline before, but I am happy to say that I
+              managed to adapt and keep up with the fast-paced environment!
+            </p>
+          </div>
+          <div class="education__data">
+            <h3>Organising the UI and Components</h3>
+            <p class="education__description">
+              During this internship, it was the first time I got to work on a
+              large scale project (spanning over almost 2 years). While I was
+              only here for a few months, being part of the initial planning and
+              designing phase taught me the
+              <span class="highlight"
+                >importance of organising all the UI and components in a
+                systematic and concise manner</span
+              >. We had to organise the different versions and iterations of
+              wireframes, components, and UI designs such that the development
+              team can refer to it easily, and for myself to be able to easily
+              find and edit designs as needed. <br /><br />
+              Luckily I was working with an experienced UIUX designer who showed
+              me the ropes of how to do so (example below).
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/govtech/organisation.jpeg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== EDUCATION ====================-->
+      <section class="education section" id="education">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Final Product
+        </h2>
+        <span
+          class="section__subtitle"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        ></span>
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <p class="education__description">
+              You can interact with the full prototype at this
+              <a
+                class="link"
+                href="https://www.figma.com/proto/hDX8xLxA6dQcpBy5NuisBf/GOVTECH-UI?page-id=0%3A1&node-id=2%3A38097&starting-point-node-id=2%3A38097"
+                target="_blank"
+                >Figma link</a
+              >. Feel free to explore!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div
+          class="footer__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div>
+            <h1 class="footer__title">Rebecca</h1>
+            <span class="footer__subtitle">UI/UX Designer</span>
+          </div>
+
+          <ul class="footer__link">
+            <li>
+              <a href="index.html" class="footer__link">Home</a>
+            </li>
+            <li>
+              <a href="nyc.html" class="footer__link">NYC Internship</a>
+            </li>
+            <li>
+              <a href="govtech.html" class="footer__link">GovTech Internship</a>
+            </li>
+            <li>
+              <a href="hackit.html" class="footer__link">HACK-IT!</a>
+            </li>
+            <li>
+              <a href="PUG.html" class="footer__link">Pick Up Games</a>
+            </li>
+            <li>
+              <a href="sentient.html" class="footer__link">Sentient.io</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/rebeccaling1209/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/rebbyling"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">
+          Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.
+        </p>
+      </div>
+    </footer>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    `
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

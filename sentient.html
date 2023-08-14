@@ -1,174 +1,204 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <link rel="icon" href="/assets/img/home-logo.png">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-            dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/assets/img/home-logo.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag("config", "UA-175188060-1");
-        </script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "UA-175188060-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/aos.css">
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-        <title>Rebecca Ling 🐢</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="index.html" ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""></a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#Intro" class="nav__link">
-                                <i class="uil uil-home nav__icon"></i> Introduction
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#ScribeRabbit" class="nav__link">
-                                <i class="uil uil-play-circle nav__icon"></i> ScribeRabbit
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Design" class="nav__link">
-                                <i class="uil uil-swatchbook nav__icon"></i> Design System
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Conclusion" class="nav__link">
-                                <i class="uil uil-fire nav__icon"></i> Conclusion
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times-circle nav__close" id="nav-close"></i>
-                </div>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-                <div class="nav__btns" id="nav-btns">
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="Intro">
-                <div class="home__container container grid">
-                    <div class="content grid" data-aos="fade-up" data-aos-delay="500">
-                        
+    <title>Rebecca Ling 🐢</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html"
+          ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""
+        /></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#Intro" class="nav__link">
+                <i class="uil uil-home nav__icon"></i> Introduction
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#ScribeRabbit" class="nav__link">
+                <i class="uil uil-play-circle nav__icon"></i> ScribeRabbit
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Design" class="nav__link">
+                <i class="uil uil-swatchbook nav__icon"></i> Design System
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Conclusion" class="nav__link">
+                <i class="uil uil-fire nav__icon"></i> Conclusion
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+        </div>
 
-                        <div class="home__img">
-                            <img class="blob__scale" src="assets/img/sentient/sr.png" alt="">
-                        </div>
-                        <div class="home__data">
-                            <h1 class="home__title">Sentient.io</h1>
-                            <h2 class="portfolio__title">My Role</h2>
-                            <p class="home__subtitle">
-                                I worked closely with one other senior designer, helping internal teams 
-                                in several different projects to conceptualise and design 
-                                unique, user-centric products using Figma
-                             </p>
-                            <h2 class="portfolio__title">Duration:</h2>
-                            <p class="home__subtitle">
-                                5 months
-                            </p>
-                            <h2 class="portfolio__title">Responsibilities:</h2>  
-                            <p class="home__subtitle">
-                                UI Design, Design Systems, Prototyping, Frontend Developer
-                            </p>
-                        </div>
-                    </div>
+        <div class="nav__btns" id="nav-btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-                    <div class="home__scroll" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-                        <a href="#Project" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scrol-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="Intro">
+        <div class="home__container container grid">
+          <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+            <div class="home__img">
+              <img
+                class="blob__scale"
+                src="assets/img/sentient/sr.png"
+                alt=""
+              />
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Sentient.io</h1>
+              <h2 class="portfolio__title">My Role</h2>
+              <p class="home__subtitle">
+                I worked closely with one other senior designer, helping
+                internal teams in several different projects to conceptualise
+                and design unique, user-centric products using Figma
+              </p>
+              <h2 class="portfolio__title">Duration:</h2>
+              <p class="home__subtitle">5 months</p>
+              <h2 class="portfolio__title">Responsibilities:</h2>
+              <p class="home__subtitle">
+                UI Design, Design Systems, Prototyping, Frontend Developer
+              </p>
+            </div>
+          </div>
 
-            <!--==================== SCRIBERABBIT ====================-->
-            <section class="education section" id="ScribeRabbit">
-                    <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">ScribeRabbit</h2>
-                    <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">The first internal project I worked on</span>
-                    <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                        <div class="education__data">
-                            <h3>What is ScribeRabbit</h3>
-                            <p class="education__description">
-                                ScribeRabbit is an AI-enabled video transcription platform 
-                                developed by Sentient.io. The target users are video transcription freelancers, 
-                                content providers (such as media agencies), as well as individuals who 
-                                have large amounts of videos that need to be transcribed in a fast and easy manner. 
-                            </p>
-                        </div>
-                         
-                        <div class="education__data">
-                            <h3>My Responsibilities</h3>
-                            <p class="education__description">
-                                As ScribeRabbit was still in beta testing, I was tasked with the following:
-                            </p>
-                            <ul class="circle">
-                                <li class="list">
-                                    Design a user friendly landing page for ScribeRabbit that represents the branding and communicate the features of this platform
-                                </li>
-                                <li class="list">
-                                    Conceptualise and design various user flows for the web service, such as the login, sign up and user profile pages
-                                </li>
-                                <li class="list">
-                                    Improve the existing UI/UX based on feedback from the beta testing users
-                                </li>
-                                <li class="list">
-                                    Take into account the future expansion plans of ScribeRabbit, and how the UI/UX will be affected
-                                </li>
-                            </ul>
-                        </div>
+          <div
+            class="home__scroll"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            <a href="#Project" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scrol-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
 
-                        <div class="education__data">
-                            <h3>Designing the Landing Page</h3>
-                            <p class="education__description">
-                                I kept in mind the following objectives:
+      <!--==================== SCRIBERABBIT ====================-->
+      <section class="education section" id="ScribeRabbit">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          ScribeRabbit
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >The first internal project I worked on</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>What is ScribeRabbit</h3>
+            <p class="education__description">
+              ScribeRabbit is an AI-enabled video transcription platform
+              developed by Sentient.io. The target users are video transcription
+              freelancers, content providers (such as media agencies), as well
+              as individuals who have large amounts of videos that need to be
+              transcribed in a fast and easy manner.
+            </p>
+          </div>
 
-                                    <ol class="number">
-                                        <li class="list">
-                                            Helping visitors of the site understand what ScribeRabbit does, and how it can help them 
-                                            with their work of video transcription
-                                        </li>
-                                        <li class="list">
-                                            Encouraging visitors of the site to join the platform
-                                        </li>
-                                    </ol>
-                                    <br><br>
-                                Below the final product can be seen on the left, as well as some of my thinking behind
-                                the designs on the webpage.
-                                <br><br>
-                            </p>
-                            <div class="nyc__survey__container container grid">
-                                <img src="assets/img/sentient/sr-landing.png" alt="" class="nyc__img">
-                                <!-- <p class="education__description">
+          <div class="education__data">
+            <h3>My Responsibilities</h3>
+            <p class="education__description">
+              As ScribeRabbit was still in beta testing, I was tasked with the
+              following:
+            </p>
+            <ul class="circle">
+              <li class="list">
+                Design a user friendly landing page for ScribeRabbit that
+                represents the branding and communicate the features of this
+                platform
+              </li>
+              <li class="list">
+                Conceptualise and design various user flows for the web service,
+                such as the login, sign up and user profile pages
+              </li>
+              <li class="list">
+                Improve the existing UI/UX based on feedback from the beta
+                testing users
+              </li>
+              <li class="list">
+                Take into account the future expansion plans of ScribeRabbit,
+                and how the UI/UX will be affected
+              </li>
+            </ul>
+          </div>
+
+          <div class="education__data">
+            <h3>Designing the Landing Page</h3>
+            <p class="education__description">
+              I kept in mind the following objectives:
+            </p>
+
+            <ol class="number">
+              <li class="list">
+                Helping visitors of the site understand what ScribeRabbit does,
+                and how it can help them with their work of video transcription
+              </li>
+              <li class="list">
+                Encouraging visitors of the site to join the platform
+              </li>
+            </ol>
+            <br /><br />
+            Below the final product can be seen on the left, as well as some of
+            my thinking behind the designs on the webpage.
+            <br /><br />
+
+            <div class="nyc__survey__container container grid">
+              <img
+                src="assets/img/sentient/sr-landing.png"
+                alt=""
+                class="nyc__img"
+              />
+              <!-- <p class="education__description">
                                     
                                     Using Figma, I implemented the following list of features to achive the above mentioned objectives: <br><br>
                                     1.	Keeping to a <span class="highlight">vibrant and bold theme </span> – the colours, fonts and assets were 
@@ -183,351 +213,451 @@
                                     ScribeRabbit</span>, and users can see at a glance what tier is more suitable for them.<br><br>
                                     5.	Added a contact section for visitors to <span class="highlight">reach out to sentient.io easily</span> if they have any queries. <br><br>
                                 </p> -->
-                                <div class="grid" data-aos="fade-up" data-aos-delay="500">
-
-                                    <div class="flip-card">
-                                        <div class="flip-card-inner">
-                                          <div class="flip-card-front">
-                                            <div>
-                                                <br>
-                                                <br>
-                                                <i class="uil uil-brush-alt CCA__icon"></i>
-                                                <h3 class="CCA__title">Split Complementary Colors</h3>
-                                            </div>
-                                          </div>
-                                          <div class="flip-card-back">
-                                                <h4 class="CCA__modal-title">Split Complementary Colors</h4>
-                
-                                                <ul class="CCA__modal-CCAs grid">
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Helped the website to stand out
-                                                        </p>
-                                                    </li>
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Used a vibrant and bold theme</p>
-                                                    </li>
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Attract user's attention</p>
-                                                    </li>
-                                                </ul>
-                                          </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="flip-card">
-                                        <div class="flip-card-inner">
-                                          <div class="flip-card-front">
-                                            <div>
-                                                <br>
-                                                <br>
-                                                <i class="uil uil-presentation CCA__icon"></i>
-                                                <h3 class="CCA__title">Purposeful Page Layout</h3>
-                                            </div>
-                                          </div>
-                                          <div class="flip-card-back">
-                                                <h4 class="CCA__modal-title">Purposeful Page Layout</h4>
-                
-                                                <ul class="CCA__modal-CCAs grid">
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Strategically placed Call-To-Action buttons</p>
-                                                    </li>
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Information given in easily digestible bite-sized chunks</p>
-                                                    </li>
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Focus on readability</p>
-                                                    </li>
-                                                </ul>
-                                          </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="flip-card">
-                                        <div class="flip-card-inner">
-                                          <div class="flip-card-front">
-                                            <div>
-                                                <br>
-                                                <br>
-                                                <i class="uil uil-dollar-sign-alt CCA__icon"></i>
-                                                <h3 class="CCA__title">Pricing Plan</h3>
-                                            </div>
-                                          </div>
-                                          <div class="flip-card-back">
-                                                <h4 class="CCA__modal-title">Pricing Plan</h4>
-                
-                                                <ul class="CCA__modal-CCAs grid">
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Allow potential customers to view all possible
-                                                            options at a glance
-                                                        </p>
-                                                    </li>
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Call-To-Action buttons for each relevant plan</p>
-                                                    </li>
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Allowing of sufficient white space</p>
-                                                    </li>
-                                                </ul>
-                                          </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="flip-card">
-                                        <div class="flip-card-inner">
-                                          <div class="flip-card-front">
-                                            <div>
-                                                <br>
-                                                <br>
-                                                <i class="uil uil-envelope-check CCA__icon"></i>
-                                                <h3 class="CCA__title">Contact</h3>
-                                            </div>
-                                          </div>
-                                          <div class="flip-card-back">
-                                                <h4 class="CCA__modal-title">Contact</h4>
-                
-                                                <ul class="CCA__modal-CCAs grid">
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Allow customers to seek more information if needed</p>
-                                                    </li>
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Easy to fill in form</p>
-                                                    </li>
-                                                    <li class="CCA__modal-CCA">
-                                                        <i class="uil uil-check-circle CCA__modal-icon"></i>
-                                                        <p>Relevant contact information on the left column</p>
-                                                    </li>
-                                                </ul>
-                                          </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="education__data">
-                            <h3>Developing the Landing Page</h3>
-                            <p class="education__description">
-                               I also got to do some front-end development using the Quasar Framework. Given that the mobile mockup was not 
-                               done on Figma, I stepped in to help the frontend developer to ensure the webpage was mobile responsive.
-                            </p>
-                            <div class="nyc__survey__container container grid">
-                                <img src="assets/img/sentient/SR-mobile.gif" alt="" class="nyc__img">
-                                <p class="education__description">
-                                    I ensured that the components were developed as according to the mock up done 
-                                    on Figma and that the website was mobile responsive, <span class="highlight">editing the components 
-                                    and CSS as needed</span>. 
-                                    <br><br>
-                                    I <span class="highlight">developed the breakpoints </span>to ensure the 
-                                    components would be <span class="highlight">viewed properly on all screen dimensions</span>.
-                                </p>
-
-                            </div>
-                        </div>
-
-                        <div class="education__data">
-                            <h3>Beta Testing Feedback</h3>
-                            <p class="education__description">
-                               As i was not part of the Product Management Team, I did not take part in the feedback
-                               gathering interviews. However, I did get to discuss with the 
-                               product management team and the developers, where we created user stories 
-                               based on the feedback, prioritised the features to develop,
-                                and the changes that needed to be made.
-                            </p>
-                            <div class="nyc__survey__container container grid">
-                                <img src="assets/img/sentient/user-story-1.png" alt="" class="nyc__img">
-                                <img src="assets/img/sentient/user-story-2.png" alt="" class="nyc__img">
-
-                            </div>
-                        </div>
+              <div class="grid" data-aos="fade-up" data-aos-delay="500">
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <br />
+                        <br />
+                        <i class="uil uil-brush-alt CCA__icon"></i>
+                        <h3 class="CCA__title">Split Complementary Colors</h3>
+                      </div>
                     </div>
+                    <div class="flip-card-back">
+                      <h4 class="CCA__modal-title">
+                        Split Complementary Colors
+                      </h4>
 
-                    <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                        <div class="education__data">
-                            <h3>Designing the User Profile</h3>
-                            <p class="education__description">
-                                The User Profile page needs to allow the users to do the following:
-                            </p>
-                            <div class="nyc__about__container container grid" data-aos="fade-up" data-aos-delay="500">
-                                <div class="nyc__content">
-                                    <div>
-                                        <span class="nyc__icon">1</span>
-                                        <span class="nyc__title">Edit notification settings</span>
-                                    </div>
-                                </div><div class="nyc__content">
-                                    <div>
-                                        <span class="nyc__icon">2</span>
-                                        <span class="nyc__title">View and change their subscription plan</span>
-                                    </div>
-                                </div>
-                                <div class="nyc__content">
-                                    <div>
-                                        <span class="nyc__icon">3</span>
-                                        <span class="nyc__title">Update profile details such as email, username</span>
-                                    </div>
-                                </div><div class="nyc__content">
-                                    <div>
-                                        <span class="nyc__icon">4</span>
-                                        <span class="nyc__title">Update billing and passwords</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <br>
-                            <p class="education__data">
-                                Keeping in mind the 4 criteria listed above, the flow for the User Profile was 
-                                created as seen in the GIF.
-                            </p>
-                            <div class="nyc__survey__container container">
-                                <img src="assets/img/sentient/SR-user-profile.gif" alt="" class="nyc__img">
-                            </div>
-                        </div>
+                      <ul class="CCA__modal-CCAs grid">
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>Helped the website to stand out</p>
+                        </li>
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>Used a vibrant and bold theme</p>
+                        </li>
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>Attract user's attention</p>
+                        </li>
+                      </ul>
                     </div>
-            </section>
-
-            <!--==================== DESIGN SYSTEM ====================-->
-            <section class="work section" id="Design">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Sentient.io's Design System</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Ensuring the consistency for future projects</span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <h3>My Task</h3>
-                        <p class="education__description">When I joined the team, the previous designers 
-                            did not create a design system or guide for new team members to follow. However,
-                            as Sentient.io continues to expand,
-                            there was a <span class="highlight">need to create better consistency across the different products</span>. 
-                            As such, I created a Design System on Figma for future designer's and developer's reference,
-                            and ensuring the consistency of the brand.
-                        </p>
-                    </div>
-                    
-                    <div class="education__data">
-                        <h3>The Colors</h3>
-                        <div class="nyc__survey__container container grid">
-                            <img src="assets/img/sentient/Colours.png" alt="" class="nyc__img">
-                            <img src="assets/img/sentient/Secondary-Colours.png" alt="" class="nyc__img">
-                        </div>
-                    </div>
-
-                    <div class="education__data">
-                        <h3>Typography</h3>
-                        <div class="container grid">
-                            <img src="assets/img/sentient/Typography.png" alt="" class="nyc__img">
-                        </div>
-                    </div>
-
-                    <div class="education__data">
-                        <h3>Buttons & Tags</h3>
-                        <div class="container grid">
-                            <img src="assets/img/sentient/Buttons.jpg" alt="" class="nyc__img">
-                            <img src="assets/img/sentient/Tags.png" alt="" class="nyc__img">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        <!--==================== CONCLUSION ====================-->
-        <section class="education section" id="Conclusion">
-            <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Key Takeaways</h2>
-            <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">My main learning points from this internship</span>
-            <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                <div class="education__data">
-                    <h3>Working Independently & Justified Designs</h3>
-                    <p class="education__description">
-                        As this was a start-up, I worked mostly independently, with some guidance form
-                        the sole other full-time designer. I was given a lot of autonomouy in my designs,
-                        and I got to <span class="highlight">
-                            independently explore and be creative
-                        </span> with my designs! 
-                        <br><br>
-                        This also meant I had to be ready to justify my designs, which was a good learning experience 
-                        where I had to <span class="highlight">ensure all decisions I made were backed up by solid 
-                            reasoning and design thinking</span> to answer to the clients and the rest of the team.
-                    </p>
-                    
-                </div>
-                <div class="education__data">
-                    <h3>Importance of Consistency</h3>
-                    <p class="education__description">At Sentient.io I really learnt how important 
-                        it is to have design consistency throughout the team, from the designers to 
-                        the developers. Although creating the design system can be repetitive, it really 
-                        <span class="highlight">helped the team to become more organised,</span>
-                         and <span class="highlight">helped to speed up the prototyping process</span> as well.
-                    </p>
+                  </div>
                 </div>
 
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <br />
+                        <br />
+                        <i class="uil uil-presentation CCA__icon"></i>
+                        <h3 class="CCA__title">Purposeful Page Layout</h3>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <h4 class="CCA__modal-title">Purposeful Page Layout</h4>
+
+                      <ul class="CCA__modal-CCAs grid">
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>Strategically placed Call-To-Action buttons</p>
+                        </li>
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>
+                            Information given in easily digestible bite-sized
+                            chunks
+                          </p>
+                        </li>
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>Focus on readability</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <br />
+                        <br />
+                        <i class="uil uil-dollar-sign-alt CCA__icon"></i>
+                        <h3 class="CCA__title">Pricing Plan</h3>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <h4 class="CCA__modal-title">Pricing Plan</h4>
+
+                      <ul class="CCA__modal-CCAs grid">
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>
+                            Allow potential customers to view all possible
+                            options at a glance
+                          </p>
+                        </li>
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>Call-To-Action buttons for each relevant plan</p>
+                        </li>
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>Allowing of sufficient white space</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="flip-card">
+                  <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                      <div>
+                        <br />
+                        <br />
+                        <i class="uil uil-envelope-check CCA__icon"></i>
+                        <h3 class="CCA__title">Contact</h3>
+                      </div>
+                    </div>
+                    <div class="flip-card-back">
+                      <h4 class="CCA__modal-title">Contact</h4>
+
+                      <ul class="CCA__modal-CCAs grid">
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>
+                            Allow customers to seek more information if needed
+                          </p>
+                        </li>
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>Easy to fill in form</p>
+                        </li>
+                        <li class="CCA__modal-CCA">
+                          <i class="uil uil-check-circle CCA__modal-icon"></i>
+                          <p>Relevant contact information on the left column</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
 
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div>
-                        <h1 class="footer__title">Rebecca</h1>
-                        <span class="footer__subtitle">UI/UX Designer</span>
-                    </div>
-
-                    <ul class="footer__link">
-                        <li>
-                            <a href="index.html" class="footer__link">Home</a>
-                        </li>
-                        <li>
-                            <a href="nyc.html" class="footer__link">NYC Internship</a>
-                        </li>
-                        <li>
-                            <a href="govtech.html" class="footer__link">GovTech Internship</a>
-                        </li>
-                        <li>
-                            <a href="hackit.html" class="footer__link">HACK-IT!</a>
-                        </li>
-                        <li>
-                            <a href="PUG.html" class="footer__link">Pick Up Games</a>
-                        </li>
-                        <li>
-                            <a href="sentient.html" class="footer__link">Sentient.io</a>
-                        </li>                        
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/rebbyling" target="_blank" class="footer__social">
-                            <i class="uil uil-github"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <p class="footer__copy">Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.</p>
-                
+          <div class="education__data">
+            <h3>Developing the Landing Page</h3>
+            <p class="education__description">
+              I also got to do some front-end development using the Quasar
+              Framework. Given that the mobile mockup was not done on Figma, I
+              stepped in to help the frontend developer to ensure the webpage
+              was mobile responsive.
+            </p>
+            <div class="nyc__survey__container container grid">
+              <img
+                src="assets/img/sentient/SR-mobile.gif"
+                alt=""
+                class="nyc__img"
+              />
+              <p class="education__description">
+                I ensured that the components were developed as according to the
+                mock up done on Figma and that the website was mobile
+                responsive,
+                <span class="highlight"
+                  >editing the components and CSS as needed</span
+                >. <br /><br />
+                I <span class="highlight">developed the breakpoints </span>to
+                ensure the components would be
+                <span class="highlight"
+                  >viewed properly on all screen dimensions</span
+                >.
+              </p>
             </div>
-            
-        </footer>
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-angle-up scrollup__icon"></i>
-        </a>
+          </div>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-`       <script src="assets/js/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+          <div class="education__data">
+            <h3>Beta Testing Feedback</h3>
+            <p class="education__description">
+              As i was not part of the Product Management Team, I did not take
+              part in the feedback gathering interviews. However, I did get to
+              discuss with the product management team and the developers, where
+              we created user stories based on the feedback, prioritised the
+              features to develop, and the changes that needed to be made.
+            </p>
+            <div class="nyc__survey__container container grid">
+              <img
+                src="assets/img/sentient/user-story-1.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/sentient/user-story-2.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Designing the User Profile</h3>
+            <p class="education__description">
+              The User Profile page needs to allow the users to do the
+              following:
+            </p>
+            <div
+              class="nyc__about__container container grid"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">1</span>
+                  <span class="nyc__title">Edit notification settings</span>
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">2</span>
+                  <span class="nyc__title"
+                    >View and change their subscription plan</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">3</span>
+                  <span class="nyc__title"
+                    >Update profile details such as email, username</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">4</span>
+                  <span class="nyc__title">Update billing and passwords</span>
+                </div>
+              </div>
+            </div>
+            <br />
+            <p class="education__data">
+              Keeping in mind the 4 criteria listed above, the flow for the User
+              Profile was created as seen in the GIF.
+            </p>
+            <div class="nyc__survey__container container">
+              <img
+                src="assets/img/sentient/SR-user-profile.gif"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DESIGN SYSTEM ====================-->
+      <section class="work section" id="Design">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Sentient.io's Design System
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Ensuring the consistency for future projects</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>My Task</h3>
+            <p class="education__description">
+              When I joined the team, the previous designers did not create a
+              design system or guide for new team members to follow. However, as
+              Sentient.io continues to expand, there was a
+              <span class="highlight"
+                >need to create better consistency across the different
+                products</span
+              >. As such, I created a Design System on Figma for future
+              designer's and developer's reference, and ensuring the consistency
+              of the brand.
+            </p>
+          </div>
+
+          <div class="education__data">
+            <h3>The Colors</h3>
+            <div class="nyc__survey__container container grid">
+              <img
+                src="assets/img/sentient/Colours.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/sentient/Secondary-Colours.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+
+          <div class="education__data">
+            <h3>Typography</h3>
+            <div class="container grid">
+              <img
+                src="assets/img/sentient/Typography.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+
+          <div class="education__data">
+            <h3>Buttons & Tags</h3>
+            <div class="container grid">
+              <img
+                src="assets/img/sentient/Buttons.jpg"
+                alt=""
+                class="nyc__img"
+              />
+              <img src="assets/img/sentient/Tags.png" alt="" class="nyc__img" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONCLUSION ====================-->
+      <section class="education section" id="Conclusion">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Key Takeaways
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >My main learning points from this internship</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Working Independently & Justified Designs</h3>
+            <p class="education__description">
+              As this was a start-up, I worked mostly independently, with some
+              guidance form the sole other full-time designer. I was given a lot
+              of autonomouy in my designs, and I got to
+              <span class="highlight">
+                independently explore and be creative
+              </span>
+              with my designs! <br /><br />
+              This also meant I had to be ready to justify my designs, which was
+              a good learning experience where I had to
+              <span class="highlight"
+                >ensure all decisions I made were backed up by solid reasoning
+                and design thinking</span
+              >
+              to answer to the clients and the rest of the team.
+            </p>
+          </div>
+          <div class="education__data">
+            <h3>Importance of Consistency</h3>
+            <p class="education__description">
+              At Sentient.io I really learnt how important it is to have design
+              consistency throughout the team, from the designers to the
+              developers. Although creating the design system can be repetitive,
+              it really
+              <span class="highlight"
+                >helped the team to become more organised,</span
+              >
+              and
+              <span class="highlight"
+                >helped to speed up the prototyping process</span
+              >
+              as well.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div
+          class="footer__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div>
+            <h1 class="footer__title">Rebecca</h1>
+            <span class="footer__subtitle">UI/UX Designer</span>
+          </div>
+
+          <ul class="footer__link">
+            <li>
+              <a href="index.html" class="footer__link">Home</a>
+            </li>
+            <li>
+              <a href="nyc.html" class="footer__link">NYC Internship</a>
+            </li>
+            <li>
+              <a href="govtech.html" class="footer__link">GovTech Internship</a>
+            </li>
+            <li>
+              <a href="hackit.html" class="footer__link">HACK-IT!</a>
+            </li>
+            <li>
+              <a href="PUG.html" class="footer__link">Pick Up Games</a>
+            </li>
+            <li>
+              <a href="sentient.html" class="footer__link">Sentient.io</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/rebeccaling1209/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/rebbyling"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">
+          Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.
+        </p>
+      </div>
+    </footer>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    `
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

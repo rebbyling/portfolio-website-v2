@@ -1,343 +1,544 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <link rel="icon" href="/assets/img/home-logo.png">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-            dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/assets/img/home-logo.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag("config", "UA-175188060-1");
-        </script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "UA-175188060-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/aos.css">
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-        <title>Rebecca Ling 🐢</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="index.html" ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""></a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#Project" class="nav__link">
-                                <i class="uil uil-folder-open nav__icon"></i> Project Brief
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Research" class="nav__link">
-                                <i class="uil uil-brain nav__icon"></i> Research
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Ideate" class="nav__link">
-                                <i class="uil uil-search-alt nav__icon"></i> Ideate
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Designing" class="nav__link">
-                                <i class="uil uil-fire nav__icon"></i> Designing
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Testing" class="nav__link">
-                                <i class="uil uil-swatchbook nav__icon"></i> Testing
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Submission" class="nav__link">
-                                <i class="uil uil-trophy nav__icon"></i> Submission
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times-circle nav__close" id="nav-close"></i>
-                </div>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-                <div class="nav__btns" id="nav-btns">
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="Intro">
-                <div class="home__container container grid">
-                    <div class="content grid" data-aos="fade-up" data-aos-delay="500">
-                        
+    <title>Rebecca Ling 🐢</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html"
+          ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""
+        /></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#Project" class="nav__link">
+                <i class="uil uil-folder-open nav__icon"></i> Project Brief
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Research" class="nav__link">
+                <i class="uil uil-brain nav__icon"></i> Research
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Ideate" class="nav__link">
+                <i class="uil uil-search-alt nav__icon"></i> Ideate
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Designing" class="nav__link">
+                <i class="uil uil-fire nav__icon"></i> Designing
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Testing" class="nav__link">
+                <i class="uil uil-swatchbook nav__icon"></i> Testing
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Submission" class="nav__link">
+                <i class="uil uil-trophy nav__icon"></i> Submission
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+        </div>
 
-                        <div class="home__img">
-                            <img class="blob__scale" src="assets/img/hackit/hackit.png" alt="">
-                        </div>
-                        <div class="home__data">
-                            <h1 class="home__title">OCBC HACK-IT!</h1>
-                            <h2 class="portfolio__title">My Role</h2>
-                            <p class="home__subtitle">
-                                This is my individual submission for this hackaton challenge.
-                                Below explains in detail my thought process leading 
-                                up to the high fidelity mock up I created
-                             </p>
-                            <h2 class="portfolio__title">Duration:</h2>
-                            <p class="home__subtitle">
-                                2 weeks
-                            </p>
-                            <h2 class="portfolio__title">Responsibilities:</h2>  
-                            <p class="home__subtitle">
-                                Design Thinking & Ideation, UI Design, UX Design, Design Systems, Prototyping, User Testing
-                            </p>
-                        </div>
-                    </div>
+        <div class="nav__btns" id="nav-btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-                    <div class="home__scroll" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-                        <a href="#Project" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scrol-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== PROJECT BRIEF ====================-->
-            <section class="education section" id="Project">
-                    <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Project Brief</h2>
-                    <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">A brief overview of what I was tasked to do for design challenge.</span>
-                    <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                        <div class="education__data">
-                            <h3>My Task</h3>
-                            <p class="education__description">Below are the assessment details for the design challenge:</p>
-                            <div class="container grid">
-                                <img src="assets/img/hackit/assessment-details-1.png" alt="" class="nyc__img">
-                                <img src="assets/img/hackit/assessment-details-2.png" alt="" class="nyc__img">
-                                <img src="assets/img/hackit/assessment-details-3.png" alt="" class="nyc__img">
-                            </div>
-                            <br>
-                            <p class="education__description">In order to gather insights and better understand potential pain points of users, I followed the below described Design Process.</p>
-                            <div class="container grid">
-                                <img src="assets/img/hackit/design-process.png" alt="" class="nyc__img">
-                            </div>
-                            
-                        </div>
-                    </div>
-            </section>
-
-            <!--==================== RESEARCH ====================-->
-            <section class="work section" id="Research">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Research and Interviews</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Laying down the ground work</span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-
-                    <div class="education__data">
-                        <h3>User Interviews</h3>
-                        <p class="education__description">I interviewed some of my friends and family who are students, adults, and both frequent and passive moviegoers. Due to the short timeline, I only managed to talk to 6 participants. Here are the few questions I included:</p>
-                        <div class="container grid">
-                            <img src="assets/img/hackit/interview-ques.png" alt="" class="nyc__img">
-                        </div>
-                        <p class="education__description">From my interviews, I gathered the below pain points and insights.</p>
-                    
-                        <h3>Pain Points</h3>
-                        <div class="container grid">
-                            <img src="assets/img/hackit/pain-points.png" alt="" class="nyc__img">
-                        </div>
-                        <br><br>
-                        <h3>Insights</h3>
-                        <div class="container grid">
-                            <img src="assets/img/hackit/insights.png" alt="" class="nyc__img">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-
-            
-            <!--==================== IDEATE ====================-->
-            <section class="work section" id="Ideate">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Ideate</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Consolidating my findings into a succinct way</span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-
-                    <div class="education__data">
-                        <h3>User Personas</h3>
-                        <p class="education__description">I created 3 different user personas based on the information gathered by my user interviews. They represent some of the target user groups of the website.</p>
-                        <div class="container grid">
-                            <img src="assets/img/hackit/eddu-persona.png" alt="" class="nyc__img">
-                            <img src="assets/img/hackit/fang-persona.png" alt="" class="nyc__img">
-                            <img src="assets/img/hackit/stacey-persona.png" alt="" class="nyc__img">
-                        </div>
-                        <a href="assets/pdf/User Personas.pdf" target="_blank" class="link link--flex">You can view my user personas here as well</a>
-                    
-                        <h3>User Journey Map</h3>
-                        <p class="education__description">I also created User Journey Maps for each persona to better understand the overall journey which each user may encounter when booking movie tickets online. From there, I could list down the opportunities that arise at each stage.</p>
-                        <div class="container grid">
-                            <img src="assets/img/hackit/eddy.png" alt="" class="nyc__img">
-                            <img src="assets/img/hackit/fang.png" alt="" class="nyc__img">
-                            <img src="assets/img/hackit/stacey.png" alt="" class="nyc__img">
-                        </div>
-                        <a href="assets/pdf/User Journey Maps.pdf" target="_blank" class="link link--flex">You can view my user jouney maps here as well</a>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== DESIGNING ====================-->
-            <section class="CCA section" id="Designing">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Designing</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Putting everything together</span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <h3>Low Fidelity Wireframe</h3>
-                        <p class="education__description">Based on my above ideations, I crafted out the path taken by a prototypical
-                            user. The wireframe takes them from their entry point throught a set of steps
-                            towards a successful outcome of purchasing movie tickets. For this flow, I also
-                            assumed that the user is not initially signed into the app when selecting seats.</p>
-                            <div class="container grid">
-                                <img src="assets/img/hackit/lofi-wireframe.jpg" alt="" class="nyc__img">
-                            </div>
-                            <a href="assets/pdf/Lo-Fi Wireframe.pdf" target="_blank" class="link link--flex">You can view a clearer version of the flow here</a>
-                    </div>
-                    <div class="education__data">
-                        <h3>Design System</h3>
-                        <p class="education__description">I created a design system heavily inspired by FRANK by OCBC as I wanted the
-                            visual design to have a youthful, laid-back yet sophisticated feel to it.</p>
-                            <div class="nyc__interview__container container grid">
-                                <img src="assets/img/hackit/Style Guide-1.png" alt="" class="nyc__img">
-                                <img src="assets/img/hackit/Style Guide-2.png" alt="" class="nyc__img">
-                                <img src="assets/img/hackit/Style Guide-3.png" alt="" class="nyc__img">
-                            </div>
-                            <a href="assets/pdf/Style Guide.pdf" target="_blank" class="link link--flex">You can view the design system here as well</a>
-                    </div>
-                    <div class="education__data">
-                        <h3>High Fidelity Prototype</h3>
-                        <p class="education__description">I used Figma to created the mockup, and you can see my initial explorations
-                            and UI below, or <a href="https://www.figma.com/proto/C7smTAIcanb1YkkOitcN4p/HACK-IT?page-id=322%3A3&node-id=322%3A4&viewport=241%2C48%2C0.61&scaling=scale-down&starting-point-node-id=322%3A4" target="_blank" class="link">view this link</a></p>
-                            <div class="container grid">
-                                <img src="assets/img/hackit/UI-screens.jpg" alt="" class="nyc__img">
-                            </div>
-                    </div>
-                </div>
-                
-            </section>
-
-            <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="Testing">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Testing</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Designs and Iterations towards the final product</span>
-
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <h3>Usability Testing</h3>
-                        <p class="education__description">I used the prototype to conduct usability tests with users in the target demographics.
-                            The overall feedback was that the app was easy to use and were happy with the
-                            theme and design. However, there was also some areas for improvement which
-                            helped me uncover opportunities to improve on my initial prototype.
-                            <br><br>Below are some of the feedback I received:</p>
-                        <div class="container grid">
-                            <img src="assets/img/hackit/feedback.png" alt="" class="nyc__img">
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-        <!--==================== SUBMISSION ====================-->
-        <section class="education section" id="Submission">
-            <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Submission</h2>
-            <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">My final prototype!</span>
-            <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                <div class="education__data">
-                    <h3>Final Prototype</h3>
-                    <p class="education__description">With the user feedback I got, I updated the prototype. Most of the changes
-                        made were minor, such as increasing font size and adding scroll arrows. Some
-                        of the bigger changes were adding UI to guide users how to selecct seats on the
-                        sear booking page, and adding an alternate button for when a cinema is fully
-                        booked.<br><br><a href="https://www.figma.com/proto/C7smTAIcanb1YkkOitcN4p/HACK-IT?page-id=421%3A681&node-id=421%3A1977&viewport=241%2C48%2C0.8&scaling=scale-down&starting-point-node-id=421%3A1977" target="_blank" class="link">You can view the Figma Prototype here</a>
-                        <br><br>Below is a more in-depth explanation of the final prototype</p>
-                    <div class="container grid">
-                        <img src="assets/img/hackit/final-submission.png" alt="" class="nyc__img">
-                    </div>
-                </div>
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="Intro">
+        <div class="home__container container grid">
+          <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+            <div class="home__img">
+              <img
+                class="blob__scale"
+                src="assets/img/hackit/hackit.png"
+                alt=""
+              />
             </div>
-    </section>
-        </main>
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div>
-                        <h1 class="footer__title">Rebecca</h1>
-                        <span class="footer__subtitle">UI/UX Designer</span>
-                    </div>
-
-                    <ul class="footer__link">
-                        <li>
-                            <a href="index.html" class="footer__link">Home</a>
-                        </li>
-                        <li>
-                            <a href="nyc.html" class="footer__link">NYC Internship</a>
-                        </li>
-                        <li>
-                            <a href="govtech.html" class="footer__link">GovTech Internship</a>
-                        </li>
-                        <li>
-                            <a href="hackit.html" class="footer__link">HACK-IT!</a>
-                        </li>
-                        <li>
-                            <a href="PUG.html" class="footer__link">Pick Up Games</a>
-                        </li>
-                        <li>
-                            <a href="sentient.html" class="footer__link">Sentient.io</a>
-                        </li>                        
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/rebbyling" target="_blank" class="footer__social">
-                            <i class="uil uil-github"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <p class="footer__copy">Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.</p>
-                
+            <div class="home__data">
+              <h1 class="home__title">OCBC HACK-IT!</h1>
+              <h2 class="portfolio__title">My Role</h2>
+              <p class="home__subtitle">
+                This is my individual submission for this hackaton challenge.
+                Below explains in detail my thought process leading up to the
+                high fidelity mock up I created
+              </p>
+              <h2 class="portfolio__title">Duration:</h2>
+              <p class="home__subtitle">2 weeks</p>
+              <h2 class="portfolio__title">Responsibilities:</h2>
+              <p class="home__subtitle">
+                Design Thinking & Ideation, UI Design, UX Design, Design
+                Systems, Prototyping, User Testing
+              </p>
             </div>
-            
-        </footer>
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-angle-up scrollup__icon"></i>
-        </a>
+          </div>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-`       <script src="assets/js/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+          <div
+            class="home__scroll"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            <a href="#Project" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scrol-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECT BRIEF ====================-->
+      <section class="education section" id="Project">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Project Brief
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >A brief overview of what I was tasked to do for design
+          challenge.</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>My Task</h3>
+            <p class="education__description">
+              Below are the assessment details for the design challenge:
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/assessment-details-1.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/hackit/assessment-details-2.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/hackit/assessment-details-3.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+            <br />
+            <p class="education__description">
+              In order to gather insights and better understand potential pain
+              points of users, I followed the below described Design Process.
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/design-process.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== RESEARCH ====================-->
+      <section class="work section" id="Research">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Research and Interviews
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Laying down the ground work</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>User Interviews</h3>
+            <p class="education__description">
+              I interviewed some of my friends and family who are students,
+              adults, and both frequent and passive moviegoers. Due to the short
+              timeline, I only managed to talk to 6 participants. Here are the
+              few questions I included:
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/interview-ques.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+            <p class="education__description">
+              From my interviews, I gathered the below pain points and insights.
+            </p>
+
+            <h3>Pain Points</h3>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/pain-points.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+            <br /><br />
+            <h3>Insights</h3>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/insights.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== IDEATE ====================-->
+      <section class="work section" id="Ideate">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Ideate
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Consolidating my findings into a succinct way</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>User Personas</h3>
+            <p class="education__description">
+              I created 3 different user personas based on the information
+              gathered by my user interviews. They represent some of the target
+              user groups of the website.
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/eddu-persona.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/hackit/fang-persona.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/hackit/stacey-persona.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+            <a
+              href="assets/pdf/User Personas.pdf"
+              target="_blank"
+              class="link link--flex"
+              >You can view my user personas here as well</a
+            >
+
+            <h3>User Journey Map</h3>
+            <p class="education__description">
+              I also created User Journey Maps for each persona to better
+              understand the overall journey which each user may encounter when
+              booking movie tickets online. From there, I could list down the
+              opportunities that arise at each stage.
+            </p>
+            <div class="container grid">
+              <img src="assets/img/hackit/eddy.png" alt="" class="nyc__img" />
+              <img src="assets/img/hackit/fang.png" alt="" class="nyc__img" />
+              <img src="assets/img/hackit/stacey.png" alt="" class="nyc__img" />
+            </div>
+            <a
+              href="assets/pdf/User Journey Maps.pdf"
+              target="_blank"
+              class="link link--flex"
+              >You can view my user jouney maps here as well</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DESIGNING ====================-->
+      <section class="CCA section" id="Designing">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Designing
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Putting everything together</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Low Fidelity Wireframe</h3>
+            <p class="education__description">
+              Based on my above ideations, I crafted out the path taken by a
+              prototypical user. The wireframe takes them from their entry point
+              throught a set of steps towards a successful outcome of purchasing
+              movie tickets. For this flow, I also assumed that the user is not
+              initially signed into the app when selecting seats.
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/lofi-wireframe.jpg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+            <a
+              href="assets/pdf/Lo-Fi Wireframe.pdf"
+              target="_blank"
+              class="link link--flex"
+              >You can view a clearer version of the flow here</a
+            >
+          </div>
+          <div class="education__data">
+            <h3>Design System</h3>
+            <p class="education__description">
+              I created a design system heavily inspired by FRANK by OCBC as I
+              wanted the visual design to have a youthful, laid-back yet
+              sophisticated feel to it.
+            </p>
+            <div class="nyc__interview__container container grid">
+              <img
+                src="assets/img/hackit/Style Guide-1.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/hackit/Style Guide-2.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/hackit/Style Guide-3.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+            <a
+              href="assets/pdf/Style Guide.pdf"
+              target="_blank"
+              class="link link--flex"
+              >You can view the design system here as well</a
+            >
+          </div>
+          <div class="education__data">
+            <h3>High Fidelity Prototype</h3>
+            <p class="education__description">
+              I used Figma to created the mockup, and you can see my initial
+              explorations and UI below, or
+              <a
+                href="https://www.figma.com/proto/C7smTAIcanb1YkkOitcN4p/HACK-IT?page-id=322%3A3&node-id=322%3A4&viewport=241%2C48%2C0.61&scaling=scale-down&starting-point-node-id=322%3A4"
+                target="_blank"
+                class="link"
+                >view this link</a
+              >
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/UI-screens.jpg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="Testing">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Testing
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Designs and Iterations towards the final product</span
+        >
+
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Usability Testing</h3>
+            <p class="education__description">
+              I used the prototype to conduct usability tests with users in the
+              target demographics. The overall feedback was that the app was
+              easy to use and were happy with the theme and design. However,
+              there was also some areas for improvement which helped me uncover
+              opportunities to improve on my initial prototype.
+              <br /><br />Below are some of the feedback I received:
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/feedback.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== SUBMISSION ====================-->
+      <section class="education section" id="Submission">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Submission
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >My final prototype!</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Final Prototype</h3>
+            <p class="education__description">
+              With the user feedback I got, I updated the prototype. Most of the
+              changes made were minor, such as increasing font size and adding
+              scroll arrows. Some of the bigger changes were adding UI to guide
+              users how to selecct seats on the sear booking page, and adding an
+              alternate button for when a cinema is fully booked.<br /><br /><a
+                href="https://www.figma.com/proto/C7smTAIcanb1YkkOitcN4p/HACK-IT?page-id=421%3A681&node-id=421%3A1977&viewport=241%2C48%2C0.8&scaling=scale-down&starting-point-node-id=421%3A1977"
+                target="_blank"
+                class="link"
+                >You can view the Figma Prototype here</a
+              >
+              <br /><br />Below is a more in-depth explanation of the final
+              prototype
+            </p>
+            <div class="container grid">
+              <img
+                src="assets/img/hackit/final-submission.png"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+      <div class="footer__bg">
+        <div
+          class="footer__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div>
+            <h1 class="footer__title">Rebecca</h1>
+            <span class="footer__subtitle">UI/UX Designer</span>
+          </div>
+
+          <ul class="footer__link">
+            <li>
+              <a href="index.html" class="footer__link">Home</a>
+            </li>
+            <li>
+              <a href="nyc.html" class="footer__link">NYC Internship</a>
+            </li>
+            <li>
+              <a href="govtech.html" class="footer__link">GovTech Internship</a>
+            </li>
+            <li>
+              <a href="hackit.html" class="footer__link">HACK-IT!</a>
+            </li>
+            <li>
+              <a href="PUG.html" class="footer__link">Pick Up Games</a>
+            </li>
+            <li>
+              <a href="sentient.html" class="footer__link">Sentient.io</a>
+            </li>
+          </ul>
+
+          <div class="footer__socials">
+            <a
+              href="https://www.linkedin.com/in/rebeccaling1209/"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-linkedin"></i>
+            </a>
+            <a
+              href="https://github.com/rebbyling"
+              target="_blank"
+              class="footer__social"
+            >
+              <i class="uil uil-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <p class="footer__copy">
+          Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.
+        </p>
+      </div>
+    </footer>
+    <!--==================== SCROLL TOP ====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+
+    <!--==================== SWIPER JS ====================-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    `
+    <script src="assets/js/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!--==================== MAIN JS ====================-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

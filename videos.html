@@ -1,33 +1,36 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <link rel="icon" href="/assets/img/home-logo.png">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
-        ></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-            dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/assets/img/home-logo.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag("config", "UA-175188060-1");
-        </script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "UA-175188060-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/aos.css">
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
 
         <title>Rebecca Ling 🐢</title>
     </head>
@@ -62,45 +65,52 @@
                     <i class="uil uil-times-circle nav__close" id="nav-close"></i>
                 </div>
 
-                <div class="nav__btns" id="nav-btns">
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+        <div class="nav__btns" id="nav-btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="home">
-                <div class="home__container container grid">
-                    <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+            <div class="home__img">
+              <img
+                class="blob__scale"
+                src="assets/img/diving/diving-blob.png"
+                alt=""
+              />
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Travel Vlogs</h1>
+              <p class="home__subtitle">
+                Here are some of the vlogs I made to capture key memories of my
+                travels! It's definitely not the best quality videos, but it's a
+                little hobby of mine to remember my experiences.
+              </p>
+            </div>
+          </div>
 
-                        <div class="home__img">
-                            <img class="blob__scale" src="assets/img/diving/diving-blob.png" alt="">
-                        </div>
-                        <div class="home__data">
-                            <h1 class="home__title">Travel Vlogs</h1>
-                            <p class="home__subtitle">
-                                Here are some of the vlogs I made to capture key memories of my travels! It's
-                                definitely not the best quality videos, but it's a little hobby of mine to 
-                                remember my experiences.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="home__scroll" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-                        <a href="#2023" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scrol-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
+          <div
+            class="home__scroll"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            <a href="#2023" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scrol-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
             <section class="education section" id="2023">
                 <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">2023</h2>
                 <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
@@ -141,10 +151,11 @@
                             <iframe src="https://www.youtube.com/embed/51fO63KyJ0Y" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; 
                         autoplay; clipboard-write; encrypted-media; gyroscope; 
-                        picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        
-                </div>
+                        picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
 
                     <div class="education__data">
                         <h3>Canada 🇨🇦</h3>
@@ -153,10 +164,11 @@
                             <iframe src="https://youtube.com/embed/luPPBXQFiW4" 
                         title="YouTube video player" frameborder="0" allow="accelerometer; 
                         autoplay; clipboard-write; encrypted-media; gyroscope; 
-                        picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                        
-                </div>
+                        picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
 
                     <div class="education__data">
                             <h3>Germany 🇩🇪</h3>
@@ -192,14 +204,19 @@
                     
             </div>
 
-            <div class="education__data">
+              <div class="education__data">
                 <h3>Bali 🇮🇩</h3>
                 <br>
                 <div class="video-container">
-                    <iframe src="https://www.youtube.com/embed/FqsORF3SAmg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <iframe
+                    src="https://www.youtube.com/embed/FqsORF3SAmg"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen
+                  ></iframe>
                 </div>
-                
-        </div>
+              </div>
 
         <div class="education__data">
             <h3>Tioman 🇲🇾</h3>
@@ -218,67 +235,104 @@
                     <h3>USA East Coast 🇺🇸</h3>
                     <br>
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/giOn8wD1NN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-            </div>
-</section>
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div>
-                        <h1 class="footer__title">Rebecca</h1>
-                        <span class="footer__subtitle">UI/UX Designer</span>
+                      <iframe
+                        src="https://www.youtube.com/embed/giOn8wD1NN8"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
                     </div>
 
-                    <ul class="footer__link">
-                        <li>
-                            <a href="index.html" class="footer__link">Home</a>
-                        </li>
-                        <li>
-                            <a href="nyc.html" class="footer__link">NYC Internship</a>
-                        </li>
-                        <li>
-                            <a href="govtech.html" class="footer__link">GovTech Internship</a>
-                        </li>
-                        <li>
-                            <a href="hackit.html" class="footer__link">HACK-IT!</a>
-                        </li>
-                        <li>
-                            <a href="PUG.html" class="footer__link">Pick Up Games</a>
-                        </li>
-                        <li>
-                            <a href="sentient.html" class="footer__link">Sentient.io</a>
-                        </li>                        
-                    </ul>
+                    <!--==================== FOOTER ====================-->
+                    <footer class="footer">
+                      <div class="footer__bg">
+                        <div
+                          class="footer__container container grid"
+                          data-aos="fade-up"
+                          data-aos-delay="500"
+                        >
+                          <div>
+                            <h1 class="footer__title">Rebecca</h1>
+                            <span class="footer__subtitle">UI/UX Designer</span>
+                          </div>
 
-                    <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/rebbyling" target="_blank" class="footer__social">
-                            <i class="uil uil-github"></i>
-                        </a>
-                    </div>
+                          <ul class="footer__link">
+                            <li>
+                              <a href="index.html" class="footer__link">Home</a>
+                            </li>
+                            <li>
+                              <a href="nyc.html" class="footer__link"
+                                >NYC Internship</a
+                              >
+                            </li>
+                            <li>
+                              <a href="govtech.html" class="footer__link"
+                                >GovTech Internship</a
+                              >
+                            </li>
+                            <li>
+                              <a href="hackit.html" class="footer__link"
+                                >HACK-IT!</a
+                              >
+                            </li>
+                            <li>
+                              <a href="PUG.html" class="footer__link"
+                                >Pick Up Games</a
+                              >
+                            </li>
+                            <li>
+                              <a href="sentient.html" class="footer__link"
+                                >Sentient.io</a
+                              >
+                            </li>
+                          </ul>
+
+                          <div class="footer__socials">
+                            <a
+                              href="https://www.linkedin.com/in/rebeccaling1209/"
+                              target="_blank"
+                              class="footer__social"
+                            >
+                              <i class="uil uil-linkedin"></i>
+                            </a>
+                            <a
+                              href="https://github.com/rebbyling"
+                              target="_blank"
+                              class="footer__social"
+                            >
+                              <i class="uil uil-github"></i>
+                            </a>
+                          </div>
+                        </div>
+
+                        <p class="footer__copy">
+                          Hooray! You've reached the bottom 🥳 © Rebecca Ling,
+                          2022.
+                        </p>
+                      </div>
+                    </footer>
+                    <!--==================== SCROLL TOP ====================-->
+                    <a href="#" class="scrollup" id="scroll-up">
+                      <i class="uil uil-angle-up scrollup__icon"></i>
+                    </a>
+
+                    <!--==================== SWIPER JS ====================-->
+                    <script src="assets/js/swiper-bundle.min.js"></script>
+                    `
+                    <script src="assets/js/aos.js"></script>
+                    <script>
+                      AOS.init();
+                    </script>
+                    <!--==================== MAIN JS ====================-->
+                    <script src="assets/js/main.js"></script>
+                  </div>
                 </div>
-
-                <p class="footer__copy">Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.</p>
-                
+              </section>
             </div>
-            
-        </footer>
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-angle-up scrollup__icon"></i>
-        </a>
-
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-`       <script src="assets/js/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+          </section>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

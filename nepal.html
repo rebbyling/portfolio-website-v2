@@ -1,259 +1,435 @@
-<!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <link rel="icon" href="/assets/img/home-logo.png">
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag() {
-            dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/assets/img/home-logo.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-            gtag("config", "UA-175188060-1");
-        </script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      gtag("config", "UA-175188060-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <!--==================== UNICONS ====================-->
-        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-        
-        <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-        
-        <!--==================== CSS ====================-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/aos.css">
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
-        <title>Rebecca Ling 🐢</title>
-    </head>
-    <body>
-        <!--==================== HEADER ====================-->
-        <header class="header" id="header">
-            <nav class="nav container">
-                <a href="index.html" ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""></a>
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list grid">
-                        <li class="nav__item">
-                            <a href="#Intro" class="nav__link">
-                                <i class="uil uil-folder-open nav__icon"></i> Introduction
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Fundraising" class="nav__link">
-                                <i class="uil uil-usd-square nav__icon"></i> Fundraising
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Trip" class="nav__link">
-                                <i class="uil uil-mountains-sun nav__icon"></i> The Trip
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#Conclusion" class="nav__link">
-                                <i class="uil uil-heart-sign nav__icon"></i> Conclusion
-                            </a>
-                        </li>
-                    </ul>
-                    <i class="uil uil-times-circle nav__close" id="nav-close"></i>
-                </div>
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
 
-                <div class="nav__btns" id="nav-btns">
-                    <i class="uil uil-moon change-theme" id="theme-button"></i>
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="uil uil-apps"></i>
-                    </div>
-                </div>
-            </nav>
-        </header>
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
 
-        <!--==================== MAIN ====================-->
-        <main class="main">
-            <!--==================== HOME ====================-->
-            <section class="home section" id="Intro">
-                <div class="home__container container grid">
-                    <div class="content grid" data-aos="fade-up" data-aos-delay="500">
-                        
+    <title>Rebecca Ling 🐢</title>
+  </head>
+  <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html"
+          ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""
+        /></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#Intro" class="nav__link">
+                <i class="uil uil-folder-open nav__icon"></i> Introduction
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Fundraising" class="nav__link">
+                <i class="uil uil-usd-square nav__icon"></i> Fundraising
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Trip" class="nav__link">
+                <i class="uil uil-mountains-sun nav__icon"></i> The Trip
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#Conclusion" class="nav__link">
+                <i class="uil uil-heart-sign nav__icon"></i> Conclusion
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+        </div>
 
-                        <div class="home__img">
-                            <img class="blob__scale" src="assets/img/nepal/nepal-blob.png" alt="">
-                        </div>
-                        <div class="home__data">
-                            <h1 class="home__title">Nepal</h1>
-                            <p class="home__subtitle">
-                                In 2019, I embarked on an Overseas CIP trip to Nepal, aiming to teach children in rural Nepal English, provide better facilities and equipment for the school, and bring joy to the children we will be interacting with.
-                                <br /><br />
-                                It was a 15 day journey with lots of ups and downs (both literally and figuratively), but I learnt a lot from this experience which I will carry with me for a long time.
-                            </p>
-                              
-                        </div>
-                    </div>
+        <div class="nav__btns" id="nav-btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
 
-                    <div class="home__scroll" data-aos="fade-up" data-aos-delay="1000" data-aos-duration="1000">
-                        <a href="#Fundraising" class="home__scroll-button button--flex">
-                            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
-                            <span class="home__scrol-name">Scroll Down</span>
-                            <i class="uil uil-arrow-down home__scroll-arrow"></i>
-                        </a>
-                    </div>
-                </div>
-            </section>
-
-            <!--==================== EDUCATION ====================-->
-            <section class="education section" id="Fundraising">
-                    <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Pre-trip Fundraising and Planning</h2>
-                    <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">A brief overview of what I was tasked to do for the upcoming months at NYC.</span>
-                    <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                        <div class="education__data">
-                            <h3>Raising Funds</h3>
-                            <p class="education__description">Before the actual trip, we had to raise sufficient funds that will be used to purchase equipment and stationery we wanted to give to the school. I was in charge of designing the stickers we planned to sell at various churches, and with my ipad and index finger (I don’t have a stylus), I came up with 5 designs that we printed to sell.</p>
-                            <div class="CCA__container container grid">
-                                <img src="assets/img/nepal/sticker1.jpg" alt="" class="nyc__img">
-                                <img src="assets/img/nepal/sticker2.jpg" alt="" class="nyc__img">
-                                <img src="assets/img/nepal/sticker3.jpg" alt="" class="nyc__img">
-                                <img src="assets/img/nepal/sticker4.jpg" alt="" class="nyc__img">
-                                <img src="assets/img/nepal/sticker5.jpg" alt="" class="nyc__img">
-                            </div>
-                        </div>
-                        <div class="education__data">
-                            <h3>Curriculum Planning</h3>
-                            <p class="education__description">
-                                During the pre-trip planning, we also crafted out an english curriculum we could teach to the Nepalese children. This task turned out to be more difficult than we anticipated, as we quickly realised that the school had children aged between 6-12, and the english standards of the children varied greatly between each other. With our small team of 12 people, we were unable to figure out how we wanted to split the manpower across the age groups. <br /><br />
-                                Ultimately, we decided to go for a more unconventional approach, where the curriculum planned consisted mainly of nursery rhymes, popular children stories and arts and crafts. We figured that with the cultural difference, exposure to the nursery rhymes and stories we Singaporeans grew up with (such as twinkle twinkle little star, or the 3 little pigs) would be a fun change of pace for the children, and help them to learn english words through these songs and stories, regardless of their age.
-                                <br /><br />
-                                So, after 2 months of fundraising, planning, preparing the materials and rehearsing, we finally left for Nepal!
-                            </p>
-                        </div>
-                    </div>
-            </section>
-
-            <!--==================== WORK ====================-->
-            <section class="work section" id="Trip">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">The Trip</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">Carrying out the plans we had</span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <p class="education__description">Deep in the rural country side of Tanahun, we arrived at Shree Satya English Boarding School, where the children were waiting for our arrival. From here, we had 5 days to interact with the children and set our plan into action. After their morning assembly, we started off by playing some ice breakers like blow wind blow and duck duck goose to shake off the childrens’ shyness around us. The games indeed helped the children loosen up, but their enthusiasm very literally kicked up a storm cloud as they ran about the sandy field of their school!</p>
-                        <p class="education__description">We split the school day into 2; the first half we taught the children nursery rhymes and a crafting activity, and the second half we combined all the classes for a storytelling-skit session. Despite our pre-trip preparations and rehearsals, we still struggled to to engage the children throughout the lessons due to the language barrier. We had to adapt our plans and relied heavily on drawings and gestures, to help the children understand what we were trying to convey. There was also a lot of intelligent guessess on our part when trying to understand what the children were trying to say to us. However, as the days went by, we got better at communicating with the children and oby the end of the week, most of the children seemed to have developed a love for Twinkle Twinkle Little Star, and they would be singing it at every opportunity they had.</p>
-                        <p class="education__description">On the last day, we realised we had a surplus of materials so we decided to hold an impromptu Funfair! We came up with 5 stations - Bowling, 5 Stones, Balloon Sculpting, Chaptay and a Photobooth, and prepared stamp cards for each student to track which stations they have completed. The games were simple but the funfair turned out to be a huge success! The children were extremely eager to complete the stamp cards as quickly as possible, and even the teachers ended up taking part in the games as well! Needless to say the day was chaotic and tiring, but given how well received it was by the school, we were glad to have changed up our original plans for this funfair.</p>
-                    </div>
-                </div>
-
-                <div class="portfolio__container container swiper-container" data-aos="fade-up" data-aos-delay="500">
-                    <div class="swiper-wrapper">
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/nepal/photo_2020-05-05_16-42-32.jpg" alt="" class="nepal__img">
-
-
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/nepal/photo_2020-05-05_16-50-10.jpg" alt="" class="nepal__img">
-
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/nepal/photo_2020-05-05_18-26-46.jpg" alt="" class="nepal__img">
-
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/nepal/photo_2020-07-19_20-06-51.jpg" alt="" class="nepal__img">
-
-                        </div>
-
-                        <div class="portfolio__content grid swiper-slide">
-                            <img src="assets/img/nepal/photo_2020-07-19_20-08-12.jpg" alt="" class="nepal__img">
-
-                        </div>
-                    </div>
-
-                    <div class="swiper-button-next">
-                        <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                        <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </section>
-
-            <!--==================== CCA ====================-->
-            <section class="CCA section" id="Conclusion">
-                <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">Final Thoughts</h2>
-                <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500">What I've learnt from this 4 month journey</span>
-                <div class="education__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div class="education__data">
-                        <h3>Importance of Planning</h3>
-                        <p class="education__description">This trip reinforced my believe that proper planning is crucial to ensure things can get done. Our research during our pre-trip planning, despite being tedious and time consuming, proved to be of invaluable help when we arrived at the school. The idea of preparing nursery rhymes, storytelling-skits and arts and crafts really allowed us to engage with the children on a deeper level, and we would not have been able to bond with them well if we had stuck to our original idea of having a more traditional classroom based lesson, especially with the language barrier.</p>
-                    </div>
-                    <div class="education__data">
-                        <h3>Adaptability</h3>
-                        <p class="education__description">No matter how in depth your plan is, there will always be unexpected surprises on execution day. During this trip, there were multiple occasions where we had to change our plans (like how we had to change the physical games we planned to sitting games due to the dust clouds being kicked up, or how school was postponed by a day because of the sudden passing of an important minister which thus declared the day a public holiday). The only thing we can do is keep a cool head, adapt to the changes and think of possible solutions given the constraints ASAP in order for the day to continue to run smoothly.</p>
-                    </div>
-                </div>
-            </section>
-
-
-        <!--==================== FOOTER ====================-->
-        <footer class="footer">
-            <div class="footer__bg">
-                <div class="footer__container container grid" data-aos="fade-up" data-aos-delay="500">
-                    <div>
-                        <h1 class="footer__title">Rebecca</h1>
-                        <span class="footer__subtitle">UI/UX Designer</span>
-                    </div>
-
-                    <ul class="footer__link">
-                        <li>
-                            <a href="index.html" class="footer__link">Home</a>
-                        </li>
-                        <li>
-                            <a href="nyc.html" class="footer__link">NYC Internship</a>
-                        </li>
-                        <li>
-                            <a href="govtech.html" class="footer__link">GovTech Internship</a>
-                        </li>
-                        <li>
-                            <a href="hackit.html" class="footer__link">HACK-IT!</a>
-                        </li>
-                        <li>
-                            <a href="PUG.html" class="footer__link">Pick Up Games</a>
-                        </li>
-                        <li>
-                            <a href="sentient.html" class="footer__link">Sentient.io</a>
-                        </li>                        
-                    </ul>
-
-                    <div class="footer__socials">
-                        <a href="https://www.linkedin.com/in/rebeccaling1209/" target="_blank" class="footer__social">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-                        <a href="https://github.com/rebbyling" target="_blank" class="footer__social">
-                            <i class="uil uil-github"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <p class="footer__copy">Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.</p>
-                
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="Intro">
+        <div class="home__container container grid">
+          <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+            <div class="home__img">
+              <img
+                class="blob__scale"
+                src="assets/img/nepal/nepal-blob.png"
+                alt=""
+              />
             </div>
-            
-        </footer>
-        <!--==================== SCROLL TOP ====================-->
-        <a href="#" class="scrollup" id="scroll-up">
-            <i class="uil uil-angle-up scrollup__icon"></i>
-        </a>
+            <div class="home__data">
+              <h1 class="home__title">Nepal</h1>
+              <p class="home__subtitle">
+                In 2019, I embarked on an Overseas CIP trip to Nepal, aiming to
+                teach children in rural Nepal English, provide better facilities
+                and equipment for the school, and bring joy to the children we
+                will be interacting with.
+                <br /><br />
+                It was a 15 day journey with lots of ups and downs (both
+                literally and figuratively), but I learnt a lot from this
+                experience which I will carry with me for a long time.
+              </p>
+            </div>
+          </div>
 
-        <!--==================== SWIPER JS ====================-->
-        <script src="assets/js/swiper-bundle.min.js"></script>
-`       <script src="assets/js/aos.js"></script>
-        <script>
-            AOS.init();
-        </script>
-        <!--==================== MAIN JS ====================-->
-        <script src="assets/js/main.js"></script>
-    </body>
+          <div
+            class="home__scroll"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            <a href="#Fundraising" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scrol-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== EDUCATION ====================-->
+      <section class="education section" id="Fundraising">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Pre-trip Fundraising and Planning
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >A brief overview of what I was tasked to do for the upcoming months
+          at NYC.</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Raising Funds</h3>
+            <p class="education__description">
+              Before the actual trip, we had to raise sufficient funds that will
+              be used to purchase equipment and stationery we wanted to give to
+              the school. I was in charge of designing the stickers we planned
+              to sell at various churches, and with my ipad and index finger (I
+              don’t have a stylus), I came up with 5 designs that we printed to
+              sell.
+            </p>
+            <div class="CCA__container container grid">
+              <img
+                src="assets/img/nepal/sticker1.jpg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/nepal/sticker2.jpg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/nepal/sticker3.jpg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/nepal/sticker4.jpg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/nepal/sticker5.jpg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+          <div class="education__data">
+            <h3>Curriculum Planning</h3>
+            <p class="education__description">
+              During the pre-trip planning, we also crafted out an english
+              curriculum we could teach to the Nepalese children. This task
+              turned out to be more difficult than we anticipated, as we quickly
+              realised that the school had children aged between 6-12, and the
+              english standards of the children varied greatly between each
+              other. With our small team of 12 people, we were unable to figure
+              out how we wanted to split the manpower across the age groups.
+              <br /><br />
+              Ultimately, we decided to go for a more unconventional approach,
+              where the curriculum planned consisted mainly of nursery rhymes,
+              popular children stories and arts and crafts. We figured that with
+              the cultural difference, exposure to the nursery rhymes and
+              stories we Singaporeans grew up with (such as twinkle twinkle
+              little star, or the 3 little pigs) would be a fun change of pace
+              for the children, and help them to learn english words through
+              these songs and stories, regardless of their age.
+              <br /><br />
+              So, after 2 months of fundraising, planning, preparing the
+              materials and rehearsing, we finally left for Nepal!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== WORK ====================-->
+      <section class="work section" id="Trip">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          The Trip
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Carrying out the plans we had</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <p class="education__description">
+              Deep in the rural country side of Tanahun, we arrived at Shree
+              Satya English Boarding School, where the children were waiting for
+              our arrival. From here, we had 5 days to interact with the
+              children and set our plan into action. After their morning
+              assembly, we started off by playing some ice breakers like blow
+              wind blow and duck duck goose to shake off the childrens’ shyness
+              around us. The games indeed helped the children loosen up, but
+              their enthusiasm very literally kicked up a storm cloud as they
+              ran about the sandy field of their school!
+            </p>
+            <p class="education__description">
+              We split the school day into 2; the first half we taught the
+              children nursery rhymes and a crafting activity, and the second
+              half we combined all the classes for a storytelling-skit session.
+              Despite our pre-trip preparations and rehearsals, we still
+              struggled to to engage the children throughout the lessons due to
+              the language barrier. We had to adapt our plans and relied heavily
+              on drawings and gestures, to help the children understand what we
+              were trying to convey. There was also a lot of intelligent
+              guessess on our part when trying to understand what the children
+              were trying to say to us. However, as the days went by, we got
+              better at communicating with the children and oby the end of the
+              week, most of the children seemed to have developed a love for
+              Twinkle Twinkle Little Star, and they would be singing it at every
+              opportunity they had.
+            </p>
+            <p class="education__description">
+              On the last day, we realised we had a surplus of materials so we
+              decided to hold an impromptu Funfair! We came up with 5 stations -
+              Bowling, 5 Stones, Balloon Sculpting, Chaptay and a Photobooth,
+              and prepared stamp cards for each student to track which stations
+              they have completed. The games were simple but the funfair turned
+              out to be a huge success! The children were extremely eager to
+              complete the stamp cards as quickly as possible, and even the
+              teachers ended up taking part in the games as well! Needless to
+              say the day was chaotic and tiring, but given how well received it
+              was by the school, we were glad to have changed up our original
+              plans for this funfair.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="portfolio__container container swiper-container"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="swiper-wrapper">
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/nepal/photo_2020-05-05_16-42-32.jpg"
+                alt=""
+                class="nepal__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/nepal/photo_2020-05-05_16-50-10.jpg"
+                alt=""
+                class="nepal__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/nepal/photo_2020-05-05_18-26-46.jpg"
+                alt=""
+                class="nepal__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/nepal/photo_2020-07-19_20-06-51.jpg"
+                alt=""
+                class="nepal__img"
+              />
+            </div>
+
+            <div class="portfolio__content grid swiper-slide">
+              <img
+                src="assets/img/nepal/photo_2020-07-19_20-08-12.jpg"
+                alt=""
+                class="nepal__img"
+              />
+            </div>
+          </div>
+
+          <div class="swiper-button-next">
+            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-button-prev">
+            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--==================== CCA ====================-->
+      <section class="CCA section" id="Conclusion">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Final Thoughts
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >What I've learnt from this 4 month journey</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Importance of Planning</h3>
+            <p class="education__description">
+              This trip reinforced my believe that proper planning is crucial to
+              ensure things can get done. Our research during our pre-trip
+              planning, despite being tedious and time consuming, proved to be
+              of invaluable help when we arrived at the school. The idea of
+              preparing nursery rhymes, storytelling-skits and arts and crafts
+              really allowed us to engage with the children on a deeper level,
+              and we would not have been able to bond with them well if we had
+              stuck to our original idea of having a more traditional classroom
+              based lesson, especially with the language barrier.
+            </p>
+          </div>
+          <div class="education__data">
+            <h3>Adaptability</h3>
+            <p class="education__description">
+              No matter how in depth your plan is, there will always be
+              unexpected surprises on execution day. During this trip, there
+              were multiple occasions where we had to change our plans (like how
+              we had to change the physical games we planned to sitting games
+              due to the dust clouds being kicked up, or how school was
+              postponed by a day because of the sudden passing of an important
+              minister which thus declared the day a public holiday). The only
+              thing we can do is keep a cool head, adapt to the changes and
+              think of possible solutions given the constraints ASAP in order
+              for the day to continue to run smoothly.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__bg">
+          <div
+            class="footer__container container grid"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div>
+              <h1 class="footer__title">Rebecca</h1>
+              <span class="footer__subtitle">UI/UX Designer</span>
+            </div>
+
+            <ul class="footer__link">
+              <li>
+                <a href="index.html" class="footer__link">Home</a>
+              </li>
+              <li>
+                <a href="nyc.html" class="footer__link">NYC Internship</a>
+              </li>
+              <li>
+                <a href="govtech.html" class="footer__link"
+                  >GovTech Internship</a
+                >
+              </li>
+              <li>
+                <a href="hackit.html" class="footer__link">HACK-IT!</a>
+              </li>
+              <li>
+                <a href="PUG.html" class="footer__link">Pick Up Games</a>
+              </li>
+              <li>
+                <a href="sentient.html" class="footer__link">Sentient.io</a>
+              </li>
+            </ul>
+
+            <div class="footer__socials">
+              <a
+                href="https://www.linkedin.com/in/rebeccaling1209/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/rebbyling"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <p class="footer__copy">
+            Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.
+          </p>
+        </div>
+      </footer>
+      <!--==================== SCROLL TOP ====================-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+      </a>
+
+      <!--==================== SWIPER JS ====================-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      `
+      <script src="assets/js/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <!--==================== MAIN JS ====================-->
+      <script src="assets/js/main.js"></script>
+    </main>
+  </body>
 </html>
