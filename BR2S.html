@@ -39,9 +39,9 @@
       var password = "acracadabra";
       (function passcodeprotect() {
          var passcode = prompt("Enter password to view");
-         while (passcode !== password) {
+         if (passcode !== password) {
             alert("Incorrect password");
-            return passcodeprotect();
+            window.location = "http://rebeccaling.com";
          }
       }());
       
