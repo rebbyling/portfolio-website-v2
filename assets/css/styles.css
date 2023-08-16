@@ -77,16 +77,16 @@
 
 /* Font size for large devices */
 @media screen and (min-width: 968px) {
-    :root {
-        --big-font-size: 3rem;
-        --h1-font-size: 2.25rem;
-        --h2-font-size: 1.5rem;
-        --h3-font-size: 1.25rem;
-        --h4-font-size:1.15rem;
-        --normal-font-size: 1rem;
-        --small-font-size: .875rem;
-        --smaller-font-size: .813rem;
-    }
+  :root {
+    --big-font-size: 3rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --h4-font-size: 1.15rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
 }
 
 /*========== Variables Dark theme ==========*/
@@ -167,7 +167,7 @@ img {
 }
 /*==================== REUSABLE CSS CLASSES ====================*/
 .section {
-  padding: 2rem 0 4rem;
+  padding: 2rem 1rem 4rem 1rem;
 }
 
 .section__title {
@@ -208,19 +208,21 @@ img {
 
 .flip-card {
   position: relative;
-  height: 280px;
+  min-height: 200px;
+  width: auto;
+  height: auto;
   background-color: var(--container-color);
-  padding: 3.5rem 0.5rem 1.25rem 1.5rem;
+  padding: 1.25rem;
+  justify-items: center;
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px rgb(0 0 0 / 15%);
   transition: 0.3s;
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
   transition: transform 0.8s;
   transform-style: preserve-3d;
 }
@@ -234,17 +236,13 @@ img {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  justify-content: center;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
 }
 
-.flip-card-front {
-  margin: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
 /* Style the back side */
 .flip-card-back {
   transform: rotateY(180deg);
@@ -1340,7 +1338,7 @@ img {
   }
 
   .section {
-    padding: 6rem 0 2rem;
+    padding: 6rem 2rem 2rem 2rem;
   }
 
   .section__subtitle {
@@ -1353,7 +1351,6 @@ img {
   }
 
   .header,
-  .main,
   .footer__container {
     padding: 0 1rem;
   }
