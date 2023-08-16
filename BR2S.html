@@ -36,23 +36,16 @@
   </head>
   <body>
     <script>
-      <!--hide
-
-      var password;
-
-      var pass1 = "acracadabra";
-
-      password = prompt("Please enter the password to view this page:", " ");
-
-      if (password == pass1)
-        window.location = "http://rebeccaling.com/BR2S.html";
-      else {
-        alert("Sorry, you have no access to this page.");
-        window.location = "http://rebeccaling.com";
-      }
-
-      /-->
-    </script>
+      var password = "acracadabra";
+      (function passcodeprotect() {
+         var passcode = prompt("Enter password to view");
+         while (passcode !== password) {
+            alert("Incorrect password");
+            return passcodeprotect();
+         }
+      }());
+      
+   </script>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
