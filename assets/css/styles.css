@@ -980,7 +980,7 @@ img {
 }
 
 .content {
-  grid-template-columns: minmax(300px, auto) 1fr;
+  grid-template-columns: minmax(95%, auto) 1fr;
   padding-top: 3.5rem;
   align-items: center;
 }
@@ -1217,7 +1217,7 @@ img {
   }
 
   .content {
-    grid-template-columns: minmax(270px, auto) 1fr;
+    grid-template-columns: minmax(95%, auto) 1fr;
     padding-top: 3.5rem;
     align-items: center;
   }
@@ -1489,7 +1489,7 @@ img {
   }
 
   .content {
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 50% 1fr;
     grid-template-rows: none;
     padding-top: 3.5rem;
     align-items: center;
