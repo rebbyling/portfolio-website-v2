@@ -1,0 +1,496 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="/assets/img/home-logo.png" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-175188060-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-175188060-1");
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--==================== UNICONS ====================-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!--==================== SWIPER CSS ====================-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--==================== CSS ====================-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+
+    <title>Rebecca Ling 🐢</title>
+  </head>
+  <body>
+    <script>
+      var password = "itsahusky";
+      (function passcodeprotect() {
+        var passcode = prompt("Enter password to view");
+        if (passcode !== password) {
+          alert("Incorrect password");
+          window.location = "http://rebeccaling.com";
+        }
+      })();
+    </script>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html"
+          ><img class="nav__logo" src="/assets/img/home-logo.png" alt=""
+        /></a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#project" class="nav__link">
+                <i class="uil uil-folder-open nav__icon"></i> Project
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#DesignThinking" class="nav__link">
+                <i class="uil uil-analysis nav__icon"></i>
+                Design Thinking
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#screens" class="nav__link">
+                <i class="uil uil-browser nav__icon"></i>
+                Screens
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#DLS" class="nav__link">
+                <i class="uil uil-atom nav__icon"></i>DLS
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns" id="nav-btns">
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="Intro">
+        <div class="home__container container grid">
+          <div class="content grid" data-aos="fade-up" data-aos-delay="500">
+            <div class="home__img">
+              <img
+                class="blob__scale"
+                src="assets/img/Zoff/header.png"
+                alt=""
+              />
+            </div>
+            <div class="home__data">
+              <h1 class="home__title">Zoff</h1>
+              <h2 class="portfolio__title">My Role</h2>
+              <p class="home__subtitle">XXXX</p>
+              <h2 class="portfolio__title">Duration:</h2>
+              <p class="home__subtitle">4 months</p>
+              <h2 class="portfolio__title">Responsibilities:</h2>
+              <p class="home__subtitle">
+                Service Design, UI/UX Design, Design Language System
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="home__scroll"
+            data-aos="fade-up"
+            data-aos-delay="1000"
+            data-aos-duration="1000"
+          >
+            <a href="#project" class="home__scroll-button button--flex">
+              <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+              <span class="home__scrol-name">Scroll Down</span>
+              <i class="uil uil-arrow-down home__scroll-arrow"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== THE PROJECT ====================-->
+      <section class="education section" id="project">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          The Project
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >An introduction of the client and our deliverables</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>High-level Summary</h3>
+            <p class="education__description">
+              Zoff is a popular Japanese Eyewear company that offers a large
+              variety of Japan quality eyewear at an affordable price.
+
+              <br />
+              <br />
+
+              Accenture was hired as Service Design consultants to help Zoff
+              explore how they can create a transformative and innovative
+              shopping experience for customers in South East Asia, both online
+              and at physical stores.
+            </p>
+          </div>
+          <div class="education__data">
+            <h3>Our Deliverables</h3>
+            <p class="education__description">
+              Together with other designers and technical consultants, we had
+              the following responsibilities:
+            </p>
+            <div
+              class="nyc__about__container container grid"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">1</span>
+                  <span class="nyc__title"
+                    >Research and synthesise pain points and gaps of Zoff
+                    customers</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">2</span>
+                  <span class="nyc__title"
+                    >Create Service Design concepts that tackle the pain
+                    points</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">3</span>
+                  <span class="nyc__title"
+                    >Explore and come up with the Design Direction for Zoff's
+                    e-commerce site</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">4</span>
+                  <span class="nyc__title"
+                    >Create and prototype the look and feel for Zoff's
+                    e-commerce site</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="education__data">
+            <h3>My Role and Contributions</h3>
+            <p class="education__description">
+              For this project, I was a key designer that helped to spearhead
+              the design process for the other designers. Some of my main
+              responsibilities include:
+            </p>
+            <ul class="circle">
+              <li class="list">
+                Created the visuals for the Customer Journey Map as part of the
+                deliverables to the client.
+              </li>
+              <li class="list">
+                Collaborated with the Design and Technology teams to understand
+                the product's functional requirements especially due to timeline
+                constraints, and designed multiple iterations to cater to the
+                different deliverable deadlines.
+              </li>
+              <li class="list">
+                Lead the developement, documentation and adherence of a
+                comprehensive set of design guidelines, principles, and
+                standards that define the visual language of the system.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== INFORMATION ARCHITECTURE ====================-->
+      <section class="work section" id="DesignThinking">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Design Discovery
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >The initial research and synthesising our findings</span
+        >
+        <div class="container" data-aos="fade-up" data-aos-delay="500">
+          <div class="education__data">
+            <h3>Creating the User Personas</h3>
+            <p class="education__description">
+              After conducting 30 interviews with people who wear glasses and
+              conducting competitor analysis at physical stores in the different
+              countries, we synthesised our findings to <span class="highlight">
+              identify existing
+              mindsets and mental models</span> of eyewear shoppers. From this, we
+              could then <span class="highlight"></span>create the User Personas and come up with key
+              opportunity areas</span>.
+            </p>
+            <div class="nyc__survey__container container grid">
+              <img src="assets/img/Zoff/boujee-elite.jpg" alt="" class="nyc__img" />
+              <img
+                src="assets/img/Zoff/frugal-fashionsta.jpg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Zoff/practical-idealist.jpg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Zoff/pragmatic-realist.jpg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="500">
+          <div class="education__data">
+            <h3>The Service Design Concepts</h3>
+            <p class="education__description">
+              With our user personas created, we then created an As-is customer journey to map out key opportunity areas, coming up with several Service Design concepts. We then further narrowed down to the following 5 main concepts to be adopted.
+            </p>
+            <div class="nyc__survey__container container grid">
+              <img src="assets/img/Zoff/ServiceConcept1.svg" alt="" class="nyc__img" />
+              <img
+                src="assets/img/Zoff/ServiceConcept2.svg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Zoff/ServiceConcept3.svg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Zoff/ServiceConcept4.svg"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Zoff/ServiceConcept5.svg"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="container" data-aos="fade-up" data-aos-delay="500">
+          <div class="education__data">
+            <h3>The Customer Journey Map</h3>
+            <p class="education__description">XXX</p>
+            <img src="assets/img/Zoff/cjm.png" alt="" class="nyc__img" />
+            
+          </div>
+        </div>
+
+      </section>
+
+      <!--==================== SCREENS ====================-->
+      <section class="work section" id="screens">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          The Screens
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >Some of the screens I helped to design</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Browsing API Marketplace</h3>
+            <p class="education__description">
+              The API Marketplace is one of the services ACRA provides for their
+              customers. Here potential customers can learn more about the API
+              packages ACRA sells, and how they can use it to conduct their own
+              market research and analysis.
+
+              <br />
+              <br />
+
+              Full documentation and resources on the API endpoints are also
+              available.
+            </p>
+            <div class="nyc__survey__container container grid">
+              <img src="assets/img/BR2S/api-mall.gif" alt="" class="nyc__img" />
+              <img
+                src="assets/img/BR2S/api-recording.gif"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+
+          <div class="education__data">
+            <h3>Officer Workspace</h3>
+            <p class="education__description">
+              These screens were designed for ACRA officer's internal use. We
+              had to design for a large range of functionalities, such as
+              Auditing, Enquiry and Maintenance of Entity Information.
+            </p>
+            <div class="nyc__survey__container container grid">
+              <img src="assets/img/BR2S/ows.gif" alt="" class="nyc__img" />
+              <img
+                src="assets/img/BR2S/microfilm.gif"
+                alt=""
+                class="nyc__img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== DLS ====================-->
+      <section class="CCA section" id="DLS">
+        <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
+          Design Language System
+        </h2>
+        <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
+          >How I was involved in it's creation</span
+        >
+        <div
+          class="education__container container grid"
+          data-aos="fade-up"
+          data-aos-delay="500"
+        >
+          <div class="education__data">
+            <h3>Developing Guidelines</h3>
+            <p class="education__description">
+              I worked with the design team to develope a comprehensive set of
+              design guidelines, principles, and standards that define the
+              visual language of the system. This was an important task as it
+              ensured consistency throughout the product and maintained a
+              cohesive design aesthetic. The guidelines I helped to develop
+              served as a roadmap for both the team and our client, ensuring
+              that everyone was on the same page and working towards the same
+              design goals.
+            </p>
+          </div>
+          <div class="education__data">
+            <h3>Populating Storybook</h3>
+            <p class="education__description">
+              Due to my background in development, I was able to provide
+              assistance to the Creative Technology team by helping them to
+              populate and update the various components within Storybook. This
+              involved using a combination of MDX and React to ensure that the
+              components were up-to-date and fully functional. Although this was
+              out of my primary responsibilities, I helped the team to identify
+              any potential issues or areas for improvement, and provided
+              feedback and suggestions as needed.
+            </p>
+
+            <img src="assets/img/BR2S/storybook.gif" alt="" class="nyc__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+        <div class="footer__bg">
+          <div
+            class="footer__container container grid"
+            data-aos="fade-up"
+            data-aos-delay="500"
+          >
+            <div>
+              <h1 class="footer__title">Rebecca</h1>
+              <span class="footer__subtitle">UI/UX Designer</span>
+            </div>
+
+            <ul class="footer__link">
+              <li>
+                <a href="index.html" class="footer__link">Home</a>
+              </li>
+              <li>
+                <a href="nyc.html" class="footer__link">NYC Internship</a>
+              </li>
+              <li>
+                <a href="govtech.html" class="footer__link"
+                  >GovTech Internship</a
+                >
+              </li>
+              <li>
+                <a href="hackit.html" class="footer__link">HACK-IT!</a>
+              </li>
+              <li>
+                <a href="PUG.html" class="footer__link">Pick Up Games</a>
+              </li>
+              <li>
+                <a href="sentient.html" class="footer__link">Sentient.io</a>
+              </li>
+            </ul>
+
+            <div class="footer__socials">
+              <a
+                href="https://www.linkedin.com/in/rebeccaling1209/"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="uil uil-linkedin"></i>
+              </a>
+              <a
+                href="https://github.com/rebbyling"
+                target="_blank"
+                class="footer__social"
+              >
+                <i class="uil uil-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <p class="footer__copy">
+            Hooray! You've reached the bottom 🥳 © Rebecca Ling, 2022.
+          </p>
+        </div>
+      </footer>
+      <!--==================== SCROLL TOP ====================-->
+      <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-angle-up scrollup__icon"></i>
+      </a>
+
+      <!--==================== SWIPER JS ====================-->
+      <script src="assets/js/swiper-bundle.min.js"></script>
+      `
+      <script src="assets/js/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <!--==================== MAIN JS ====================-->
+      <script src="assets/js/main.js"></script>
+    </main>
+  </body>
+</html>
