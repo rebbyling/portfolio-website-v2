@@ -50,6 +50,7 @@
   --h1-font-size: 2rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
+  --h5-font-size: 1.5rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.93rem;
   --smaller-font-size: 0.85rem;
@@ -83,6 +84,7 @@
     --h2-font-size: 1.5rem;
     --h3-font-size: 1.25rem;
     --h4-font-size: 1.15rem;
+    --h5-font-size: 1.5rem;
     --normal-font-size: 1rem;
     --small-font-size: 0.875rem;
     --smaller-font-size: 0.813rem;
@@ -150,6 +152,11 @@ h4 {
   font-weight: var(--font-semi-bold);
   font-family: var(--header-font);
   letter-spacing: 0.08rem;
+}
+
+h5 {
+  color: var(--first-color-second);
+  margin-bottom: var(--mb-0-25);
 }
 
 ul {
