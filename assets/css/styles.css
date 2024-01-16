@@ -820,15 +820,15 @@ img {
 }
 
 .portfolio__layout {
-  display: flex;
-  flex-flow: row wrap;
-  padding-right: var(--mb-3);
-  padding-left: var(--mb-3);
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  padding-right: var(--mb-1);
+  padding-left: var(--mb-1);
 }
 
 .layout__item {
   flex: 1 100%;
-  padding: 30px 20px 60px;
+  padding-bottom: var(--mb-3);
   min-height: 500px;
   box-sizing: border-box;
   position: relative;
@@ -1248,8 +1248,9 @@ img {
   }
 
   .portfolio__layout {
-    padding-left: var(--mb-1);
-    padding-right: var(--mb-1);
+    grid-template-columns: repeat(1, 1fr);
+    padding-left: var(--mb-0-25);
+    padding-right: var(--mb-0-25);
   }
 }
 
@@ -1279,15 +1280,12 @@ img {
   }
 
   .portfolio__layout {
+    grid-template-columns: repeat(1, 1fr);
     padding-left: var(--mb-1);
     padding-right: var(--mb-1);
   }
 
-  .layout__item {
-    /* padding-right: 10px;
-        padding-left: 10px; */
-    padding-bottom: 20px;
-  }
+
 
   .nyc__about__container {
     gap: 1rem;
@@ -1449,6 +1447,7 @@ img {
   }
 
   .portfolio__layout {
+    grid-template-columns: repeat(1, 1fr);
     padding-left: var(--mb-1);
     padding-right: var(--mb-1);
   }
@@ -1558,6 +1557,7 @@ img {
   }
 
   .portfolio__layout {
+    grid-template-columns: repeat(2, 1fr);
     padding-left: var(--mb-1);
     padding-right: var(--mb-1);
   }
