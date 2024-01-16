@@ -35,6 +35,16 @@
     <title>Rebecca Ling 🐢</title>
   </head>
   <body>
+    <script>
+      var password = "ermspartytime";
+      (function passcodeprotect() {
+        var passcode = prompt("Enter password to view");
+        if (passcode !== password) {
+          alert("Incorrect password");
+          window.location = "http://rebeccaling.com";
+        }
+      })();
+    </script>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
@@ -49,20 +59,20 @@
               </a>
             </li>
             <li class="nav__item">
-              <a href="#Discovery" class="nav__link">
-                <i class="uil uil-lightbulb-alt nav__icon"></i>
-                Discovery
-              </a>
-            </li>
-            <li class="nav__item">
-              <a href="#Direction" class="nav__link">
+              <a href="#DLS" class="nav__link">
                 <i class="uil uil-swatchbook nav__icon"></i>
-                Direction
+                ERMS
               </a>
             </li>
             <li class="nav__item">
-              <a href="#Prototyping" class="nav__link">
-                <i class="uil uil-desktop nav__icon"></i>Prototyping
+              <a href="#workshop" class="nav__link">
+                <i class="uil uil-brain nav__icon"></i>
+                Workshop
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#dashboard" class="nav__link">
+                <i class="uil uil-chart nav__icon"></i>Dashboard
               </a>
             </li>
           </ul>
@@ -87,7 +97,7 @@
             <div class="home__img">
               <img
                 class="blob__scale"
-                src="assets/img/Zoff/header.png"
+                src="assets/img/Mindef/header.png"
                 alt=""
               />
             </div>
@@ -101,7 +111,7 @@
               <h2 class="portfolio__title">Duration:</h2>
               <p class="home__subtitle">6 months</p>
               <h2 class="portfolio__title">Responsibilities:</h2>
-              <p class="home__subtitle">UI/UX Design, Design Systems</p>
+              <p class="home__subtitle">UI/UX Design, Design Systems, Enterprise Platforms</p>
             </div>
           </div>
 
@@ -366,9 +376,23 @@
           data-aos-delay="500"
         >
           <div class="education__data">
-            <h3>Planning</h3>
+            <h3>Planning and Execution</h3>
             <p class="education__description">
-              XXX
+              In order to find out the client's painpoints of their existing
+              dashboards and analysis platform, we conducted a workshop to
+              better understand the various scenarios in which they would use
+              the dashboard for.
+
+              <br />
+              <br />
+              Based on our initial understanding, we created 2 A0 posters of
+              high-level scenarios, each with a main theme that the user would
+              want to achieve when doing their case analysis on the dashboard.
+              These posters were used as a drawing board during the workshop,
+              where the client's could pen their thoughts onto post its and
+              stick it onto these posters. This process served to help guide the
+              client's in figuring out and consolidating what exactly were the
+              pain points they faced in a systematic manner.
             </p>
             <div class="nyc__survey__container container grid">
               <img
@@ -381,41 +405,116 @@
                 alt=""
                 class="nyc__img"
               />
-              
             </div>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <p>
+              After gathering the pain points from the above activity, we
+              proceeded to prioritise the pain points using our Prioritisation
+              Matrix. This matrix was to help us to figure out what was the most
+              important information and features to have on the dashboard, using
+              2 measures - the impact this pain point has on decision making,
+              and the frequency which the user will look at this piece of
+              information. This leaves the matrix with 4 quadrants as seen
+              below, and the client would be able to visualise the importance of
+              their pain points against each other as they place the post its
+              into their relevant quadrants.
+            </p>
+            <br />
             <div class="container grid">
+              <img src="assets/img/Mindef/matrix.svg" alt="" class="nyc__img" />
+            </div>
+          </div>
+
+          <div class="education__data">
+            <h3>Synthesis</h3>
+            <p class="education__description">
+              After conducting a full day workshop with the client, we proceeded
+              to synthesise all the information by looking at the gathered pain
+              points, organising, interpreting and categorising them. We
+              clustered similar pain points, and this helped us to identify
+              relevant solutions or considerations for each category.
+              <br />
+              <br />
+              The synthesis process lead us to the following 3 key themes:
+            </p>
+            <div
+              class="grid container nyc__survey__container"
+              data-aos="fade-up"
+              data-aos-delay="500"
+            >
+              <div class="flip-card">
+                <i class="uil uil-database CCA__icon"></i>
+                <h4 class="CCA__modal-title">
+                  Data Availability / Granularity
+                </h4>
+                <p>
+                  Insights related to the lack of external system integration,
+                  data inaccuracy and unavailability.
+                </p>
+              </div>
+
+              <div class="flip-card">
+                <i class="uil uil-presentation CCA__icon"></i>
+                <h4 class="CCA__modal-title">Dashboard Capabilities</h4>
+
+                <p>
+                  Insights related to the functions and features to customise
+                  the dashboard catering to the different needs of Senior
+                  Management.
+                </p>
+              </div>
+
+              <div class="flip-card">
+                <i class="uil uil-chart CCA__icon"></i>
+                <h4 class="CCA__modal-title">Generative Data and Analytics</h4>
+
+                <p>
+                  Insights related to the data visualisations and potential
+                  generative diagnosis that can be further explored.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="education__data">
+            <h3>Our Findings</h3>
+            <p class="education__description">
+              With the 3 key themes, we could further breakdown and summarise
+              the pain points and proposed functionalities to be taken into
+              account when we design the dashboard.
+            </p>
+            <div class="nyc__survey__container container grid">
               <img
-                src="assets/img/Mindef/matrix.svg"
+                src="assets/img/Mindef/Playback-10.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Mindef/Playback-11.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Mindef/Playback-12.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Mindef/Playback-13.png"
                 alt=""
                 class="nyc__img"
               />
             </div>
-            
-          </div>
-
-          <div class="education__data">
-            <h3>Final Direction</h3>
-            <p class="education__description">
-              We then evaluated the best design direction Zoff should pursue,
-              which was to be a combination of the 2nd and 3rd explored Design
-              Directions. With this in mind, the designers could then design and
-              prototype the screens for the future e-commerce site of Zoff!
-            </p>
-            <img src="assets/img/Zoff/Evaluation.png" alt="" class="nyc__img" />
           </div>
         </div>
       </section>
 
-      <!--==================== Prototyping ====================-->
-      <section class="CCA section" id="Prototyping">
+      <!--==================== DASHBOARD ====================-->
+      <section class="CCA section" id="dashboard">
         <h2 class="section__title" data-aos="fade-up" data-aos-delay="500">
-          Prototyping
+          Dashboard
         </h2>
         <span class="section__subtitle" data-aos="fade-up" data-aos-delay="500"
-          >Some key screens I helped design</span
+          >Designing dashboards post workshop</span
         >
         <div
           class="education__container container grid"
@@ -423,54 +522,136 @@
           data-aos-delay="500"
         >
           <p>
-            As part of the key deliverables of the project, the team had to
-            create a high-fidelity, functional prototype to help the clients
-            better envision the look and feel of Zoff's new digital identity! We
-            created prototypes for both the desktop and mobile versions,
-            incorporating our various Service Design concepts into the flows as
-            well.
+            The dashboard was to be built on the enterprise platform Amazon
+            Quicksight. Quicksight is a business intelligence tool that creates
+            data visualisations and dashboards for their users.
           </p>
           <div class="education__data">
-            <h3>Landing Flow</h3>
-            <br />
-            <img
-              src="assets/img/Zoff/landing-flow.gif"
-              alt=""
-              class="nyc__img"
-            />
-          </div>
+            <h3>Limitations</h3>
+            <p>
+              As with any enterprise product, Quicksight comes with it's pros
+              and cons. While Quicksight has many technical features such as
+              machine learning, there was a lot of design limitations to this
+              platform. When it came to designing the dashboard, it was very
+              much like PowerPoint, where everything was static and each chart
+              or component had to be manually adjusted to the right place.
 
-          <div class="education__data">
-            <h3>Lenses Flow</h3>
-            <br />
-            <img
-              src="assets/img/Zoff/lenses-flow.gif"
-              alt=""
-              class="nyc__img"
-            />
-          </div>
-
-          <div class="education__data">
-            <h3>Virtual Try On Flow</h3>
-            <br />
-            <img src="assets/img/Zoff/VTO-flow.gif" alt="" class="nyc__img" />
-          </div>
-
-          <div class="nyc__survey__container container grid">
-            <div class="education__data">
-              <h3>Staff Pick</h3>
               <br />
+              <br />
+              We had to be creative in how we decided to layout each dashboard,
+              playing around with images, typography and colour to ensure that
+              the design of the dashboard was aligned to the visual directive of
+              being consistent with NS Hub, as well as being easily understood
+              by the client.
+            </p>
+          </div>
+
+          <div class="education__data">
+            <h3>Our Guiding Principles</h3>
+            <p>
+              After we deepened our understanding of the Quicksight platform and
+              it's limitations, we came up with the following Guiding Principles
+              to guide our dashboard design process. These Principles take into
+              account the client's requirements and the design limitations of
+              Quicksight, and were also communicated to the client and internal
+              teams to help ensure consistency across all the dashboards.
+              <br />
+              <br />
+            </p>
+            <div class="container grid" data-aos="fade-up" data-aos-delay="500">
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">NS Hub Colour</span>
+                  <span class="nyc__title"
+                    >The aim is to maintain the NS Hub colour scheme while
+                    designing the dashboard.</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">Visual Impact</span>
+                  <span class="nyc__title"
+                    >The goal is not just to present information, but to
+                    <span class="highlight"
+                      >motivate users to take meaningful actions</span
+                    >
+                    based on the insights they gather. With a focus on an
+                    <span class="highlight">aesthetically pleasing design</span>
+                    that maintains an organised presentation of information, we
+                    can inspire a positive response while extracting valuable
+                    insights without unnecessary complexity or clutter.</span
+                  >
+                </div>
+              </div>
+              <div class="nyc__content">
+                <div>
+                  <span class="nyc__icon">Value Amplification</span>
+                  <span class="nyc__title"
+                    >The impact is elevated by ensuring that the information
+                    displayed on the dashboard directly contributes to the
+                    organisation's goals and objectives. It goes beyond just
+                    providing data; it
+                    <span class="highlight"
+                      >translates data into actionable information</span
+                    >
+                    information that can guide meaningful actions and
+                    decisions.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="education__data">
+            <h3>Design Process</h3>
+            <p>
+              When designing the dashboards, we took on an iterative approach to
+              progressively improve the dashboard design, while keeping in mind
+              our Guiding Principles. Below are some examples of the our
+              dashboard designs and how we made use of our Principles to guide
+              our process.
+              <br />
+              <br />
+            </p>
+            <div class="container grid">
               <img
-                src="assets/img/Zoff/mb-staffpick.gif"
+                src="assets/img/Mindef/principles-1.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Mindef/principles-2.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Mindef/principles-3.png"
+                alt=""
+                class="nyc__img"
+              />
+              <img
+                src="assets/img/Mindef/principles-4.png"
                 alt=""
                 class="nyc__img"
               />
             </div>
-            <div class="education__data">
-              <h3>Photo Try On</h3>
+          </div>
+
+          <div class="education__data">
+            <h3>Guidelines and Templates</h3>
+            <p>
+              After obtaining the client's approval of the dashboard design, we
+              consolidated the various colours, images, guidelines and templates
+              that the developers would need to follow to build the dashboard.
+              Below are some examples of the guidelines done up.
               <br />
+              <br />
+            </p>
+            <div class="nyc__survey__container container grid">
+              <img src="assets/img/Mindef/Colour.svg" alt="" class="nyc__img" />
               <img
-                src="assets/img/Zoff/mb-PTO-flow.gif"
+                src="assets/img/Mindef/SL-template-1.svg"
                 alt=""
                 class="nyc__img"
               />
