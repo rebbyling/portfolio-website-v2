@@ -11,21 +11,6 @@
   --header-height: 3rem;
 
   /*========== Colors ==========*/
-  /* Change favorite color */
-  --hue-color: 230; /*Purple 250 - Green 142 - Blue 230 - Pink 340*/
-
-  /* HSL color mode */
-  /* --first-color: hsl(var(--hue-color), 20%, 61%);
-    --first-color-second: hsl(var(--hue-color), 69%, 61%);
-    --first-color-alt: hsl(var(--hue-color), 57%, 53%);
-    --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-    --title-color: hsl(var(--hue-color), 37%, 29%);
-    --text-color: hsl(var(--hue-color), 8%, 45%);
-    --text-color-light: hsl(var(--hue-color), 8%, 65%);
-    --input-color: hsl(var(--hue-color), 70%, 96%);
-    --body-color: hsl(var(--hue-color), 60%, 99%);
-    --container-color: #FFF; */
-
   --first-color: #3c5ca6;
   --first-color-second: #f76464;
   --first-color-alt: #ffc300;
@@ -34,7 +19,7 @@
   --text-color: #506ab8;
   --text-color-light: #eca200;
   --input-color: #f1effa;
-  --body-color: hsl(var(--hue-color), 60%, 99%);
+  --body-color: #fbfbfe;
   --container-color: #fefbfb;
   --scroll-bar-color: #a7b5e0;
   --scroll-thumb-color: #3c5ca6;
@@ -43,7 +28,7 @@
 
   /*========== Font and typography ==========*/
   --body-font: "Albert Sans", "Poppins", sans-serif;
-  --header-font: "Clash Display", "Poppins", sans-serif;
+  --header-font:  "Clash Display", "Poppins", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2.25rem;
@@ -151,7 +136,7 @@ h4 {
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   font-family: var(--header-font);
-  letter-spacing: 0.08rem;
+  /* letter-spacing: 0.01rem; */
 }
 
 h5 {
