@@ -28,7 +28,7 @@
 
   /*========== Font and typography ==========*/
   --body-font: "Albert Sans", "Poppins", sans-serif;
-  --header-font:  "Clash Display", "Poppins", sans-serif;
+  --header-font: "Clash Display", "Poppins", sans-serif;
 
   /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
   --big-font-size: 2.25rem;
@@ -605,8 +605,7 @@ img {
   background: var(--container-color);
   /* -webkit-box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.26); 
     box-shadow: 0px 0px 18px 1px rgba(0,0,0,0.26); */
-  box-shadow:
-    rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
     rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
   border-radius: var(--mb-0-5);
 }
@@ -1270,8 +1269,6 @@ img {
     padding-right: var(--mb-1);
   }
 
-
-
   .nyc__about__container {
     gap: 1rem;
     grid-template-columns: repeat(4, 1fr);
@@ -1537,7 +1534,7 @@ img {
   }
 
   .portfolio__container {
-    max-width: 75%;
+    max-width: 968px;
     grid-template-columns: repeat(2, 1fr);
   }
 
